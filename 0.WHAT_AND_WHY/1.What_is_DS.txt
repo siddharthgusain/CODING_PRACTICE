@@ -1,0 +1,21 @@
+-> Each program consists of only two things :- data and instructions to work on that data.
+-> The way in which data is stored in memory(RAM) largely determines how slow and fast our
+program will run , as to fetch data from RAM cpu cycles are required , if data is organised
+in a way that it can be accessed with fewer cpu cyles.
+-> Second thing to optimise is steps to access the data (algorithms).
+
+->The way we store a DATA in RAM is "Data" "structure".
+-> The steps to manipulate data efficiently with less complexity hence less cpu cycles is 
+alogorithms.
+
+-> Data can be store only in two ways physically in RAM:-
+1. Contigously (Array)
+2. Non-contigously (linkedlist)
+
+->Other Data structures are combination or extenstion of these two way of storing data.
+-> Here we generally deals with optimising RAM usage.
+
+-> Inside operating system a large number of data structures are used like linked list , arrays ,
+trees etc;
+
+-> Process control blocks(PCB) are also stored in linked list.

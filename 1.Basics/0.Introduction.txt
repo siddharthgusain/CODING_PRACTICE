@@ -1,3 +1,4 @@
 1. Every program written here will be small and is single threaded.
 2. There is no asynchronous behaviour(event driven), all these program run synchronously.
 3. Visualization of the running program will be easy.
+
