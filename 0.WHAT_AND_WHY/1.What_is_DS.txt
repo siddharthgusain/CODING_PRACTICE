@@ -19,3 +19,6 @@ alogorithms.
 trees etc;
 
 -> Process control blocks(PCB) are also stored in linked list.
+-> Analysing algorithm indepdent of platform or hardware is also known as "Asymtotic analysis"
+-> Asymtotic analysis gives complexity of algorithm in terms of input .
+-> Genrally we calculate time and space complexity of a program.
