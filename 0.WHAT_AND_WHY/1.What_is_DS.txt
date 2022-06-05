@@ -7,7 +7,7 @@ in a way that it can be accessed with fewer cpu cyles.
 ->The way we store a DATA in RAM is "Data" "structure".
 -> The steps to manipulate data efficiently with less complexity hence less cpu cycles is 
 alogorithms.
--> Each Cpu instruction(Instrucuction set architecture) goes through multiple stages :_
+-> Each Cpu instruction(Instruction set architecture) goes through multiple stages :_
 Fetch -> decode -> Effective address -> execute.
 -> Each of these stages takes multiple cpu clock cycles depending on type of instruction.
 -> In algorithm analysis we dont really talk about hardware instruction set.
@@ -16,7 +16,7 @@ Fetch -> decode -> Effective address -> execute.
 1. Contigously (Array)
 2. Non-contigously (linkedlist)
 
-->Other Data structures are combination or extenstion of these two way of storing data.
+->Other Data structures are combination or extention of these two way of storing data.
 -> Here we generally deals with optimising RAM usage.
 
 -> Inside operating system a large number of data structures are used like linked list , arrays ,
@@ -25,4 +25,4 @@ trees etc;
 -> Process control blocks(PCB) are also stored in linked list.
 -> Analysing algorithm indepdent of platform or hardware is also known as "Asymtotic analysis"
 -> Asymtotic analysis gives complexity of algorithm in terms of input .
--> Genrally we calculate time and space complexity of a program.
+-> Generally we calculate time and space complexity of a program.
