@@ -2,11 +2,6 @@
 
 void is_prime(int num)
 {
-    if (num <= 1)
-    {
-        std::cout << "Neither Prime nor composite";
-        return;
-    }
     bool flag = false;
     for (int div = 2; div * div <= num; div++)
     {
@@ -27,6 +22,11 @@ int main()
     std::cout << "Enter number:" << std::endl;
     int num;
     std::cin >> num;
+    if (num <= 1)
+    {
+        std::cout << "Neither Prime nor composite";
+        return 0;
+    }
     for (int i = 2; i <= num; i++)
     {
         is_prime(i);
