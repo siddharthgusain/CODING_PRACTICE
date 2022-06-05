@@ -1,0 +1,13 @@
+1. https://www.pepcoding.com/resources/
+2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
+
+Practice Platforms:- 
+1. https://leetcode.com/problemset/all/
+2. https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions
+3. https://codeforces.com/?f0a28=1
+4. https://www.interviewbit.com/
+5. https://unstop.com/
+6. https://www.hackerearth.com/
+7. https://www.hackerrank.com/
+8. https://www.techgig.com/
