@@ -1,4 +1,4 @@
-1. https://www.pepcoding.com/resources/
+1. https://nados.io/content/data-structures-and-algorithms
 2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
 
