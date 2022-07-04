@@ -5,8 +5,8 @@
 Practice Platforms:- 
 1. https://leetcode.com/problemset/all/
 2. https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions
-3. https://codeforces.com/?f0a28=1
 4. https://www.interviewbit.com/
+4. https://codeforces.com/?f0a28=1
 5. https://unstop.com/
 6. https://www.hackerearth.com/
 7. https://www.hackerrank.com/

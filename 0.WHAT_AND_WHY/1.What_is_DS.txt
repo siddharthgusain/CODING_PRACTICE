@@ -16,7 +16,7 @@ Fetch -> decode -> Effective address -> execute.
 1. Contigously (Array)
 2. Non-contigously (Linked List)
 
-->Other Data structures are combination or extention of these two way of storing data.
+-> Other Data structures are combination or extention of these two way of storing data.
 -> Here we generally deals with optimising RAM usage.
 
 -> Inside operating system a large number of data structures are used like linked list , arrays ,
