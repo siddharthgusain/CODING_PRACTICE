@@ -1,0 +1,18 @@
+-> Data types :- They tell what type of data a variable is storing .
+Data types are just way of identifying in high level language , usefull for compiler
+In memory every variable is just a space in memory , according to data type its size is alloted.
+-> Data types are used by compiler to convert source code into assembly with same sie of data signified by
+data type .
+
+Data types are more considerable for strongly typed langauges like c/c++ , java , not for weakly typed
+ languages like javascript , python etc.
+
+Types :- 
+1. Predefined in language :- int , float etc
+2. Derived :- arrays 
+3. User defined :- class , structure , union , enum , typedef
+
+-> We can store data in memory in two ways only :-
+1. contigously :- Arrays 
+2. Non contigously :- Linked nodes with Pointers
+

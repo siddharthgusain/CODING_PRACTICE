@@ -1,0 +1,6 @@
+Three things :-
+1. Logic and pattern recognise(naive to optimised approach)
+2. Clean code and fast code
+3. Fast Debugging
+4. Relate to real life problem
+5. Reward based learning
