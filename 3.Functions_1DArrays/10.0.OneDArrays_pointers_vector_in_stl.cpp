@@ -19,9 +19,9 @@ int main()
     std::vector<int> vec = {1, 2, 3, 4, 5}; // template class vector, vec is object
     vec.push_back(10);
     std::cout << vec[0] << std::endl;
-    for (std::vector<int>::iterator itr = vec.begin(); itr != vec.end(); itr++)
+    for (int itr = 0; itr < vec.size(); itr++)
     {
-        std::cout << *itr << " ";
+        std::cout << vec[itr] << " ";
     }
     delete ptr;
     return 0;

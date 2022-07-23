@@ -1,14 +1,18 @@
 1. https://nados.io/content/data-structures-and-algorithms
 2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
+4. DEMUX :- https://docs.google.com/document/d/1oMOkEpa0UxRw8SRapYS0RPfRmPkThayIlO-MOeLBZxo/edit
 
 Practice Platforms:- 
 1. https://leetcode.com/problemset/all/
 2. https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions
-4. https://www.interviewbit.com/
+3. https://www.interviewbit.com/
+
+<------------------------------------>
 4. https://codeforces.com/?f0a28=1
-5. https://unstop.com/
+5. https://www.codechef.com/
 6. https://www.hackerearth.com/
 7. https://www.hackerrank.com/
 8. https://www.techgig.com/
-9. https://www.codechef.com/
+9. https://unstop.com/
+
