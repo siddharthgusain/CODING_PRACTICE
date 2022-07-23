@@ -32,5 +32,4 @@ Space Comp :- O(1)
 
 Problem:- https://nados.io/question/find-element-in-an-array
 Articles:- https://nados.io/article/find-element-in-an-array
-Videos:- https://youtu.be/3AcyounXhfg?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk
-*/
+Videos:- https://youtu.be/3AcyounXhfg

@@ -4,3 +4,4 @@ Three things :-
 3. Fast Debugging
 4. Relate to real life problem
 5. Reward based learning
+6. Revise Periodically
