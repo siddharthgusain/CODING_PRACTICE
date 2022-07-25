@@ -1,0 +1,12 @@
+1. C++ is a high level language 
+2. It gets compiled + assembled into machine code(instruction set of machine architecture)
+
+Why write code in high level when u can write same code in assembly or machine code(actual 0 and 1)
+1. Reducing Time to build application.
+2. Scalability and maintainability and debugging of software over long period.
+3. New developers is more familiar with HLL.
+4. Using compiler and assembler softwares to automate the task of generating machine code on behalf of Us.
+5. Last 40 years , compiler and assembler softwares have gone significant improvement.
+6. No need for a developer to understand the machine instruction set , only understand syntax of a language.
+7. Porting to different CPU architecture without writing source code again, just writing compiler for that architecture.
+8. Write once , use everywhere principle.
