@@ -36,7 +36,7 @@ int main()
 
 /*
 Time Comp :- O(n)
-space comp:- O(1); --> extra array
+space comp:- O(1);
 /*
 
 /*
