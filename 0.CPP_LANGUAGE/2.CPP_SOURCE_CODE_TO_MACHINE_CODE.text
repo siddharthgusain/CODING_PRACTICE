@@ -1,0 +1,8 @@
+1. CPP file is a simple text file containing bunch of characters in some syntax that could be
+understood by compiler.
+2. Source code -> preprocessor -> PURE HLL file
+3. PURE HLL file -> Compiler -> Assembly file
+4. Assembly file -> Assembler -> Object file/Machine code
+5. Different Object file -> Linker -> Fully linked /partially linked Object/executable file.
+
+NOTE:- The program we will bw writing will be synchronous single threaded programs(they could be multifile)

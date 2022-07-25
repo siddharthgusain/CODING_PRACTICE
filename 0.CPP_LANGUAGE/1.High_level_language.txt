@@ -10,3 +10,22 @@ Why write code in high level when u can write same code in assembly or machine c
 6. No need for a developer to understand the machine instruction set , only understand syntax of a language.
 7. Porting to different CPU architecture without writing source code again, just writing compiler for that architecture.
 8. Write once , use everywhere principle.
+9. Teaching New generation programming is easy in HLL.
+
+
+WHY CPP?
+1. USED iN GAME ENGINE
+2. MOST Virtual machine written in CPP
+3. OS written in CPP
+4. MOST system software written in CPP
+5. BRowser that run Web application written in CPP.
+
+Why C++ compiler is different for different OS even if both OS are Runnning on same CPU achitecture (say x86-64)
+1. Executable file format for different OS is different (Linux--> .o file , window--> .exe file)
+2. Each file format is differnt in terms of headers and other sections added for operating system 
+3. System call is different in different OS.
+
+-> And on top of all of that, different OSs have different ideas of what an "executable" even looks like. 
+An executable isn't just a bunch of opcodes, after all; where do you think all of those constant and 
+pre-initialized static variables get stored? Different OSs have different ways of starting up an 
+executable, and the structure of the executable is a part of that.
