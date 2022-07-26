@@ -1,9 +1,9 @@
 #include <iostream>
 
-void print(int a)
+void print(int a) // user defined functions
 {
-    std::cout << a;
-}
+    std::cout << a; // cout is a library ostream object which in turn has system call inside it
+} // system call are functions/Routines written inside OS kernel
 
 int main()
 {
@@ -12,6 +12,6 @@ int main()
     return 0;
 }
 
-// Functions are just block os instrucution
+// Functions are just block of instruction
 // Used for reusability
 // used for modularity and maintainability
