@@ -5,3 +5,7 @@ Three things :-
 4. Relate to real life problem
 5. Reward based learning
 6. Revise Periodically
+
+All the problems can be broadly divided into two categories:-
+1. Math pattern or formula problem, that can be solved in less complexity with formula(common for CP problems)
+2. Logic problem , requires genrating algorithm for the problem.
