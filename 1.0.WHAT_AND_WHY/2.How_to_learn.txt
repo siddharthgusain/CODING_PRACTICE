@@ -8,4 +8,10 @@ Three things :-
 
 All the problems can be broadly divided into two categories:-
 1. Math pattern or formula problem, that can be solved in less complexity with formula(common for CP problems)
-2. Logic problem , requires genrating algorithm for the problem.
+2. Logic problem , requires generating algorithm with some data structure for the problem.
+
+How to solve:-
+1. Take small input 
+2. Recognize pattern , solve for small input 
+3. Generalize the pattern with algorithm , optimize with DS
+4. Handle edge cases
