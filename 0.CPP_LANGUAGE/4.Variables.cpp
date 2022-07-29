@@ -14,3 +14,13 @@ int main()
 }
 
 // variables are just space(bytes) in memory to store data.
+/*
+ Data types ares just way to tell compiler how much size of memory is required which further is allocated according
+to operating system and computer architecture.
+Inbuilt Data type like int , float are reserved keyword in compiler , so when source file is parsed ,the size is
+known by compiler
+User defined data type like structure and class defines block which describes the total size required by the object
+according to that compiler generates assembly code.
+AS CPP is statically typed , means if we try to put wrong data type into a variable declared , then it will give
+error thats how it is written. so we get error/bugs in compile time , rather than runtime.
+*/

@@ -14,7 +14,7 @@ Fetch -> decode -> Effective address -> execute.
 
 -> Data can be store only in two ways physically in RAM:-
 1. Contigously (Array)
-2. Non-contigously (Linked List)
+2. Non-contigously (With pointers)
 
 -> Other Data structures are combination or extention of these two way of storing data.
 -> Here we generally deals with optimising RAM usage.

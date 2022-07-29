@@ -1,5 +1,7 @@
 1. C++ is a high level language 
 2. It gets compiled + assembled into machine code(instruction set of machine architecture)
+3. So , Compiler is the software which does all the automation work of generating machine code from our source
+code. 
 
 Why write code in high level when u can write same code in assembly or machine code(actual 0 and 1)
 1. Reducing Time to build application.
@@ -21,8 +23,8 @@ WHY CPP?
 5. BRowser that run Web application written in CPP.
 
 Why C++ compiler is different for different OS even if both OS are Runnning on same CPU achitecture (say x86-64)
-1. Executable file format for different OS is different (Linux--> .o file , window--> .exe file)
-2. Each file format is differnt in terms of headers and other sections added for operating system 
+1. Executable file format for different OS is different (Linux--> ELF format , window--> PE / COFF format)
+2. Each file format is different in terms of headers and other sections added for operating system 
 3. System call is different in different OS.
 
 -> And on top of all of that, different OSs have different ideas of what an "executable" even looks like. 
