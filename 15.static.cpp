@@ -43,6 +43,11 @@ public:
     {
         std::cout << this->a << " " << this->b << std::endl;
     }
+
+    static void print_static_member() // static methods can only access static variables
+    {
+        std::cout << a;
+    }
 };
 
 int Player::a;
@@ -55,7 +60,18 @@ int main()
     Player p2(20);
     p1.increment();
     p2.increment();
+    // other way to write
+    // Player::increment();
+    // Player::increment();
     p1.print();
     p2.print();
     return 0;
 }
+
+/*
+-> Behind the scenes non-static methods , gets a parameter of pointer to
+current calling , thats why we use "this".
+-> this is done by compiler during compilation.
+-> Because of object oriented programming implemnetation, compiler has become more complex
+softwares
+*/
