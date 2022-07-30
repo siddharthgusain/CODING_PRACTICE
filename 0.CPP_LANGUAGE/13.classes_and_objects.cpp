@@ -41,4 +41,5 @@ variables , so that compiler can generate appropriate low level code and can giv
 if we try to access private members by functions outside the class indenfier.
 -> In a nutshell classes are small programs in its own containing data + instruction/ functions
 -> classes are just syntacticall sugar to make our life easier as developer. THATS IT
+-> In assembly , there is no notion of class.
 */
