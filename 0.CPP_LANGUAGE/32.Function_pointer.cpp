@@ -1,8 +1,20 @@
 #include <iostream>
+#include <vector>
 
 void test()
 {
     std::cout << "hello" << std::endl;
+}
+
+void print_value(int value)
+{
+    std::cout << value << std::endl;
+}
+
+void for_each(const std::vector<int> &values, void (*callback)(int))
+{
+    for (int value : values)
+        callback(value);
 }
 
 int main()
@@ -11,6 +23,8 @@ int main()
     a();
     void (*ptr)() = &test;
     (*ptr)();
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+    for_each(vec, print_value); // more like passing callback
     return 0;
 }
 
