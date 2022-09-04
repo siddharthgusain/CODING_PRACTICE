@@ -1,4 +1,4 @@
-Three things :-
+Things to keep in mind:-
 1. Logic and pattern recognise(naive to optimised approach)
 2. Clean code and fast code
 3. Fast Debugging
