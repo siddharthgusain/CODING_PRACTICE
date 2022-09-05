@@ -6,7 +6,7 @@ class Vector
 public:
     Vector()
     {
-        reallocate(2);
+        reallocate(2); // default size of vector = 2
     }
 
     void push_back(const T &value)
