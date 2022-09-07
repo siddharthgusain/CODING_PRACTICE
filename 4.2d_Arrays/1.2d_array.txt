@@ -1,0 +1,4 @@
+1. Two d array is nothing just a linear array in memory but as an programmer we can consider it as
+a 2-d matrix and visualize it in 2-d form.
+2. Array name is just a pointer to its first element
+3. Random access is possible by basic mathematic calculations
