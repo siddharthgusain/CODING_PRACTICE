@@ -28,8 +28,10 @@ Array can be sorted or unsorted
 Algo:- linear search
 Time comp:- O(n)
 Space Comp :- O(1)
-/*
+*/
 
+/*
 Problem:- https://nados.io/question/find-element-in-an-array
 Articles:- https://nados.io/article/find-element-in-an-array
 Videos:- https://youtu.be/3AcyounXhfg
+*/
