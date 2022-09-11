@@ -51,3 +51,9 @@ int main()
 
     return 0;
 }
+
+/*
+Problem:- https://nados.io/question/spiral-display
+Articles:-https://nados.io/article/spiral-display
+Videos:-https://www.youtube.com/watch?v=SVFXEqn3Ceo
+*/
