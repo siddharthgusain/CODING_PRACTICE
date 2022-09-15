@@ -1,0 +1,4 @@
+-> Group of characters ending with "/0" or null character is considered as string
+-> In physical memory , they are stream of bytes 
+-> How strings are handled by each programming language may have some differences but core remains 
+same.
