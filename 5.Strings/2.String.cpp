@@ -12,5 +12,5 @@ int main()
     std::cout << str << std::endl;
     std::cout << str1 << std::endl;
     std::cout << str3 << std::endl;
+    std::cout << str3.at(0) << std::endl; // classes makes the source code more readable and maintainable
 }
-
