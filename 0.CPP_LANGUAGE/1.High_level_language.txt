@@ -16,11 +16,11 @@ Why write code in high level when u can write same code in assembly or machine c
 
 
 WHY CPP?
-1. USED iN GAME ENGINE
+1. USED in GAME ENGINE
 2. MOST Virtual machine written in CPP
 3. OS written in CPP
 4. MOST system software written in CPP
-5. BRowser that run Web application are written in CPP.
+5. Browser that run Web application are written in CPP.
 
 Why C++ compiler is different for different OS even if both OS are Runnning on same CPU achitecture (say x86-64)
 1. Executable file format for different OS is different (Linux--> ELF format , window--> PE / COFF format)
