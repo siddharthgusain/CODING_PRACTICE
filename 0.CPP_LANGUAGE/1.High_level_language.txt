@@ -1,5 +1,5 @@
 1. C++ is a high level language 
-2. It gets compiled + assembled into machine code(instruction set of machine architecture)
+2. It gets compiled and assembled into machine code(instruction set of machine architecture)
 3. So , Compiler is the software which does all the automation work of generating machine code(Instruction set) from our source
 code. 
 
