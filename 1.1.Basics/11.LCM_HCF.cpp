@@ -3,14 +3,17 @@
 int main()
 {
     int num1, num2;
+
     std::cin >> num1 >> num2;
     int divisor = num2, dividend = num1;
+
     while (dividend % divisor != 0)
     {
         int remainder = dividend % divisor;
         dividend = divisor;
         divisor = remainder;
     }
+    
     std::cout << "HCF=" << divisor << std::endl;
     int hcf = divisor;
     int lcm = (num1 * num2) / hcf;
