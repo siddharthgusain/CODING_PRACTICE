@@ -1,6 +1,6 @@
 Things to keep in mind:-
-1. Logic and pattern recognise(naive to optimised approach)
-2. Clean code and fast code
+1. Logic and pattern recognie(naive to optimised approach)
+2. Clean code and fast code(variable name , functions use and proper indentation)
 3. Fast Debugging
 4. Relate to real life problem
 5. Reward based learning
