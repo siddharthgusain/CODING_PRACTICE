@@ -25,7 +25,7 @@ void is_prime(int num)
 int main()
 {
     int n;
-    std::cin >> n;
+    std::cin >> n; // number of test cases
     for (int i = 0; i < n; i++)
     {
         int num;
