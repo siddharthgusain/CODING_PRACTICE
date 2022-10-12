@@ -3,5 +3,5 @@
 -> each Routine/functions can have some functionality 
 -> Functions are similar to math function that takes an input and gives output after processing Inside
 its body.
--> TO make a large codebase maintainable and debuaggable functions are usefull.
+-> TO make a large codebase maintainable and debuggable functions are usefull.
 -> We have already studied the inner working of stack and function calls.
