@@ -6,8 +6,9 @@ in a way that it can be accessed with fewer cpu cyles.
 
 ->The way we store a DATA in RAM is "Data" "structure".
 -> The steps to manipulate data efficiently with less complexity hence less cpu cycles is 
-alogorithms.
--> Each Cpu instruction(Instruction set architecture) goes through multiple stages :_
+algorithms.
+
+-> Each Cpu instruction(Instruction set architecture) goes through multiple stages :-
 Fetch -> decode -> Effective address -> execute.
 -> Each of these stages takes multiple cpu clock cycles depending on type of instruction.
 -> In algorithm analysis we dont really talk about hardware instruction set.
@@ -23,5 +24,5 @@ Fetch -> decode -> Effective address -> execute.
 trees etc;
 
 -> Analysing algorithm independent of platform or hardware is also known as "Asymtotic analysis"
--> Asymtotic analysis gives complexity of algorithm in terms of input .
+-> Asymtotic analysis gives complexity of algorithm in terms of size of input .
 -> Generally we calculate time and space complexity of a program.
