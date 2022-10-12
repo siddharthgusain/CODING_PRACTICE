@@ -4,16 +4,19 @@ int main()
 {
     int num;
     std::cin >> num;
+
     for (int div = 2; div * div < num; div++)
     {
-        while (num % div == 0) // check if that number divides actual number
+        while (num % div == 0) // Run till that number divides actual number
         {
             std::cout << div << " ";
             num = num / div;
         }
     }
+
     if (num != 1) // edge case
         std::cout << num;
+
     return 0;
 }
 
