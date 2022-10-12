@@ -11,6 +11,8 @@ int main()
     {
         return;
     }
+
+    // count total number of digits in number in order to make divisor to get digits from starting of number
     while (temp)
     {
         count++;
@@ -19,10 +21,10 @@ int main()
     int divisor = pow(10, count - 1);
     while (divisor)
     {
-        int digit = number / divisor;
-        std::cout << digit << std::endl;
-        number = number % divisor;
-        divisor = divisor / 10;
+        int digit = number / divisor; // get the first digit
+        std::cout << digit << std::endl; // print the first digit 
+        number = number % divisor; // get remaining number
+        divisor = divisor / 10; // decrease the divisor by power of 10
     }
     return 0;
 }
