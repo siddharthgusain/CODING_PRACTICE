@@ -6,8 +6,10 @@ int main()
     int num;
     int base;
     int converted_num = 0;
+
     std::cin >> num >> base;
     int power = 0;
+
     while (num)
     {
         int rem = num % base;                  // get remainder
@@ -15,6 +17,7 @@ int main()
         num = num / base;                      // get quotient
         power++;
     }
+    
     std::cout << converted_num;
     return 0;
 }
