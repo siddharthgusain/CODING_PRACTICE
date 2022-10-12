@@ -15,14 +15,19 @@ int main()
 {
     int number, rotated_number;
     int total_digits = 0, times_to_rotate;
+
     std::cin >> number >> times_to_rotate;
+
     int temp = number;
+
     while (temp)
     {
         temp = temp / 10;
         total_digits++;
     }
+
     times_to_rotate = times_to_rotate % total_digits;
+    
     if (times_to_rotate == 0)
         std::cout << number;
     else if (times_to_rotate > 0) // positive rotate
