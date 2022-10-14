@@ -31,3 +31,9 @@ int main()
     }
     return 0;
 }
+
+/*
+Question :- https://nados.io/question/print-all-palindromic-substrings
+Article :- https://nados.io/article/print-all-palindromic-substrings-in-java
+Video:- https://www.youtube.com/watch?v=_jM3iMT4k7g
+*/
