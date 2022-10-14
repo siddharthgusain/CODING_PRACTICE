@@ -24,3 +24,9 @@ int main()
     std::cout << str;
     return 0;
 }
+
+/*
+Question :- https://nados.io/question/toggle-optica-document
+Article :- https://nados.io/article/toggle-case
+Video:- https://www.youtube.com/watch?v=VQnWqpHpKnE
+*/
