@@ -4,7 +4,7 @@ using namespace std;
 
 bool isprime(int val)
 {
-    for (int j = 2; j <= val / 2; j++)
+    for (int j = 2; j * j <= val; j++)
     {
         if (val % j == 0)
         {
