@@ -1,0 +1,10 @@
+-> Recursion is very much linked to functions and call stack
+-> Recursion means function calling another function , this another function could be itself or some other function
+
+Two types of recursion:-
+1. Direct Recursion :- Function calling itself
+2. Indirect Recursion:- Function calling another function and another function calling former one and so on.
+
+Types of recursion according to where recusive call is made:-
+1. Head recursion :- recursion at the starting of recursive function
+2. Tail recursion :- recursion at the end of recursive function
