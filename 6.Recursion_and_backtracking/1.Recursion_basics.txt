@@ -8,3 +8,7 @@ Two types of recursion:-
 Types of recursion according to where recusive call is made:-
 1. Head recursion :- recursion at the starting of recursive function
 2. Tail recursion :- recursion at the end of recursive function
+
+
+-> Crux of recursion is we know solution to small problem using that we can solve bigger problem of same type
+-> Its similar to Principle of mathematical induction
