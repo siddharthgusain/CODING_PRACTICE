@@ -1,51 +1,54 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
-vector<int> allIndex(vector<int> &arr, int idx, int data, int count)
+std::vector<int> all_indices(std::vector<int> vec, int index, int ele, int count)
 {
-    if (idx == arr.size())
+    if (index == vec.size())
     {
-        vector<int> base(count, 0);
-        return base;
+        std::vector<int> sub_result_vec(count, 0);
+        return sub_result_vec;
     }
 
-    if (arr[idx] == data)
-        count++;
-    vector<int> ans = allIndex(arr, idx + 1, data, count);
-    if (arr[idx] == data)
-        ans[count - 1] = idx;
+    if (vec[index] == ele)
+        count++; // to get the count of elements to determine size of resulting array while going up in recursion
 
-    return ans;
+    std::vector<int> result = all_indices(vec, index + 1, ele, count); // recursive call
+
+    if (vec[index] == ele) // to fill vector given by base case while returning back from recursion
+        result[count - 1] = index;
+
+    return result;
 }
 
 int main()
 {
     int n;
-    cin >> n;
-    vector<int> arr;
+    std::cin >> n;
+    std::vector<int> vec(n, 0);
+
     for (int i = 0; i < n; i++)
     {
-        int d;
-        cin >> d;
-        arr.push_back(d);
+        std::cin >> vec[i];
     }
-    int data;
-    cin >> data;
-    vector<int> ans = allIndex(arr, 0, data, 0);
-    if (ans.size() == 0)
+
+    int element;
+    std::cin >> element;
+
+    std::vector<int> result = all_indices(vec, 0, element, 0); // count variable is very usefull to count the total times the element is found to make resultant vector
+
+    if (result.size() == 0)
+        std::cout << "No index found";
+    else
     {
-        cout << endl;
-        return 0;
+        for (int ele : result)
+            std::cout << ele << ",";
     }
-    for (int ele : ans)
-        cout << ele << endl;
 
     return 0;
 }
 
 /*
-Question :-https://nados.io/question/all-indices-of-array
+Question :- https://nados.io/question/all-indices-of-array
 Article:- https://nados.io/article/all-indices-in-an-array
 Video:- https://www.youtube.com/watch?v=bQkwHBaNioE
 */
