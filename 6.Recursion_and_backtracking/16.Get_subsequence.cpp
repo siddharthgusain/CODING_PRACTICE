@@ -5,9 +5,8 @@ using namespace std;
 vector<string> get_subsequence(string str)
 {
     if (str.size() == 0)
-    {
         return {""};
-    }
+
     string c = str.substr(0, 1);
     string sub_string = str.substr(1, str.size());
 
