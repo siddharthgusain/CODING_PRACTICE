@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void floodfill(vector<vector<int>> maze, int sr, int sc, string asf, vector<vector<bool>> visited)
+void flood_fill(vector<vector<int>> maze, int sr, int sc, string asf, vector<vector<bool>> visited)
 {
     if (sr == maze.size() - 1 && sc == maze[0].size() - 1)
     {
@@ -18,10 +18,10 @@ void floodfill(vector<vector<int>> maze, int sr, int sc, string asf, vector<vect
 
     visited[sr][sc] = true; // required as in this question reverse direction is also there
 
-    floodfill(maze, sr - 1, sc, asf + "t", visited);
-    floodfill(maze, sr, sc - 1, asf + "l", visited);
-    floodfill(maze, sr + 1, sc, asf + "d", visited);
-    floodfill(maze, sr, sc + 1, asf + "r", visited);
+    flood_fill(maze, sr - 1, sc, asf + "t", visited);
+    flood_fill(maze, sr, sc - 1, asf + "l", visited);
+    flood_fill(maze, sr + 1, sc, asf + "d", visited);
+    flood_fill(maze, sr, sc + 1, asf + "r", visited);
 
     visited[sr][sc] = false; // very important step i.e removing visited while stack deallocation
 }
@@ -38,7 +38,7 @@ int main()
 
     vector<vector<bool>> visited(n, vector<bool>(m));
 
-    floodfill(arr, 0, 0, "", visited);
+    flood_fill(arr, 0, 0, "", visited);
 }
 
 /*

@@ -4,7 +4,7 @@ using namespace std;
 // set is the subset
 // sos is sum of subset
 // tar is target
-void printTargetSumSubsets(vector<int> arr, int idx, string set, int sos, int tar)
+void print_target_sum_subsets(vector<int> arr, int idx, string set, int sos, int tar)
 {
     if (sos > tar)
     {
@@ -22,8 +22,8 @@ void printTargetSumSubsets(vector<int> arr, int idx, string set, int sos, int ta
 
     string val = to_string(arr[idx]);
 
-    printTargetSumSubsets(arr, idx + 1, set + val + ", ", sos + arr[idx], tar); // adding the current element
-    printTargetSumSubsets(arr, idx + 1, set, sos, tar);                         // not addding current element
+    print_target_sum_subsets(arr, idx + 1, set + val + ", ", sos + arr[idx], tar); // adding the current element
+    print_target_sum_subsets(arr, idx + 1, set, sos, tar);                         // not addding current element
 }
 
 int main()
@@ -36,7 +36,7 @@ int main()
         cin >> arr[i];
     }
     cin >> tar;
-    printTargetSumSubsets(arr, 0, "", 0, tar);
+    print_target_sum_subsets(arr, 0, "", 0, tar);
 }
 
 /*

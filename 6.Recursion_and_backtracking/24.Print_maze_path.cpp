@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printMazePaths(int sr, int sc, int dr, int dc, string psf)
+void print_maze_paths(int sr, int sc, int dr, int dc, string psf)
 {
     if (sr > dr || sc > dc)
     {
@@ -14,8 +14,8 @@ void printMazePaths(int sr, int sc, int dr, int dc, string psf)
         return;
     }
 
-    printMazePaths(sr, sc + 1, dr, dc, psf + "h");
-    printMazePaths(sr + 1, sc, dr, dc, psf + "v");
+    print_maze_paths(sr, sc + 1, dr, dc, psf + "h");
+    print_maze_paths(sr + 1, sc, dr, dc, psf + "v");
 }
 
 int main()
@@ -24,7 +24,7 @@ int main()
     int m;
     cin >> n >> m;
 
-    printMazePaths(0, 0, n - 1, m - 1, "");
+    print_maze_paths(0, 0, n - 1, m - 1, "");
 }
 
 /*
