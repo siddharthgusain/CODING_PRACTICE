@@ -33,7 +33,7 @@ void print_Knights_Tour(vector<vector<int>> &chess, int n, int r, int c, int upc
 
     chess[r][c] = upcomingMove;
 
-    print_Knights_Tour(chess, n, r - 2, c + 1, upcomingMove + 1);
+    print_Knights_Tour(chess, n, r - 2, c + 1, upcomingMove + 1); // 2.5 move
     print_Knights_Tour(chess, n, r - 1, c + 2, upcomingMove + 1);
     print_Knights_Tour(chess, n, r + 1, c + 2, upcomingMove + 1);
     print_Knights_Tour(chess, n, r + 2, c + 1, upcomingMove + 1);
