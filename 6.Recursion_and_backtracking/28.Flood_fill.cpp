@@ -23,7 +23,7 @@ void floodfill(vector<vector<int>> maze, int sr, int sc, string asf, vector<vect
     floodfill(maze, sr + 1, sc, asf + "d", visited);
     floodfill(maze, sr, sc + 1, asf + "r", visited);
 
-    visited[sr][sc] = false;
+    visited[sr][sc] = false; // very important step i.e removing visited while stack deallocation
 }
 
 int main()
