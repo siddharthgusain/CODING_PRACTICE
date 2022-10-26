@@ -38,7 +38,7 @@ int main()
 }
 
 /*
-Question :- https://nados.io/question/print-permutations
-Article:- https://nados.io/article/print-permutations
-Video:- https://www.youtube.com/watch?v=sPAT_DbvDj0
+Question :- https://nados.io/question/print-encodings
+Article:- https://nados.io/article/print-encodings
+Video:- https://www.youtube.com/watch?v=2ClSccwnq1Y
 */
