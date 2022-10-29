@@ -92,7 +92,7 @@ Space comp:- o(n)
 */
 
 /*
-Question :-https://nados.io/question/merge-two-sorted-arrays
-Article:- https://nados.io/article/merge-two-sorted-arrays
-Video:- https://www.youtube.com/watch?v=WMxNhIBA92I
+Question :-https://nados.io/question/merge-sort
+Article:- https://nados.io/article/merge-sort
+Video:- https://www.youtube.com/watch?v=aiUHB-3EOg8
 */
