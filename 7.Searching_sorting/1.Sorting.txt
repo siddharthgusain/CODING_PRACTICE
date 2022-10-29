@@ -1,0 +1,14 @@
+Sorting can be of two types:-
+1. Comparision based
+-> Bubble 
+-> Selection
+-> Insertion
+-> Shell
+-> Merge
+-> Quick
+-> Heap
+
+2. Counting based
+-> Counting 
+-> Radix 
+-> Bucket
