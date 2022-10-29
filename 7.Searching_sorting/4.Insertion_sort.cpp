@@ -9,22 +9,24 @@ void swap(std::vector<int> &vec, int i, int j)
     vec[j] = temp;
 }
 
-bool is_smaller(std::vector<int> &vec, int i, int j)
+bool is_greater(std::vector<int> &vec, int i, int j)
 {
     std::cout << "Comparing:" << vec[i] << "," << vec[j] << std::endl;
-    if (vec[i] < vec[j])
+    if (vec[i] > vec[j])
         return true;
     return false;
 }
 
-void bubble_sort(std::vector<int> &vec)
+void insertion_sort(std::vector<int> &vec)
 {
-    for (int iteration = 0; iteration < vec.size(); iteration++)
+    for (int iteration = 1; iteration < vec.size(); iteration++)
     {
-        for (int j = 0; j < vec.size() - iteration - 1; j++)
+        for (int j = iteration - 1; j >= 0; j--)
         {
-            if (is_smaller(vec, j + 1, j))
-                swap(vec, j + 1, j);
+            if (is_greater(vec, j, j + 1))
+                swap(vec, j, j + 1);
+            else
+                break;
         }
     }
 }
@@ -40,7 +42,7 @@ int main()
         std::cin >> vec[i];
     }
 
-    bubble_sort(vec);
+    insertion_sort(vec);
 
     for (int ele : vec)
         std::cout << ele << ",";
@@ -54,7 +56,7 @@ Space comp:- o(1)
 */
 
 /*
-Question :- https://nados.io/question/bubble-sort
-Article:- https://nados.io/article/bubble-sort
-Video:- https://www.youtube.com/watch?v=Jv-eGC2xmtU
+Question :- https://nados.io/question/insertion-sort
+Article:- https://nados.io/article/insertion-sort
+Video:- https://www.youtube.com/watch?v=MMt2x6an_i8
 */

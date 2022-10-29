@@ -17,15 +17,19 @@ bool is_smaller(std::vector<int> &vec, int i, int j)
     return false;
 }
 
-void bubble_sort(std::vector<int> &vec)
+void selection_sort(std::vector<int> &vec)
 {
     for (int iteration = 0; iteration < vec.size(); iteration++)
     {
-        for (int j = 0; j < vec.size() - iteration - 1; j++)
+        int min = iteration; // position of min element
+
+        // comparision loop to find minimum in rest of array
+        for (int j = iteration + 1; j < vec.size(); j++)
         {
-            if (is_smaller(vec, j + 1, j))
-                swap(vec, j + 1, j);
+            if (is_smaller(vec, j, min))
+                min = j;
         }
+        swap(vec, iteration, min);
     }
 }
 
@@ -40,7 +44,7 @@ int main()
         std::cin >> vec[i];
     }
 
-    bubble_sort(vec);
+    selection_sort(vec);
 
     for (int ele : vec)
         std::cout << ele << ",";
@@ -54,7 +58,7 @@ Space comp:- o(1)
 */
 
 /*
-Question :- https://nados.io/question/bubble-sort
-Article:- https://nados.io/article/bubble-sort
-Video:- https://www.youtube.com/watch?v=Jv-eGC2xmtU
+Question :- https://nados.io/question/selection-sort
+Article:- https://nados.io/article/selection-sort
+Video:- https://www.youtube.com/watch?v=EU9FIt1t-Is
 */
