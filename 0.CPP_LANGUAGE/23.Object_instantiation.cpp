@@ -24,6 +24,7 @@ int main()
     Player p1 = Player(20); // parameterized constructor called
     std::cout << p1.get_x() << std::endl;
     std::cout << ptr->get_x() << std::endl;
+    std::cout << sizeof(*ptr) << std::endl;
     delete ptr;
     return 0;
 }
