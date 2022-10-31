@@ -98,7 +98,7 @@ int main()
 
 /*
 Time comp:- o(nlogn)
-Space comp:- o(1)
+Space comp:- o(n)
 */
 
 /*
