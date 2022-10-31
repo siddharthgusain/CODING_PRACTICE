@@ -1,8 +1,7 @@
 1. https://nados.io/content/data-structures-and-algorithms
 2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
-4. DEMUX :- https://docs.google.com/document/d/1oMOkEpa0UxRw8SRapYS0RPfRmPkThayIlO-MOeLBZxo/edit
-5. https://www.linkedin.com/posts/grusiya_leetcode-datastructures-programming-activity-6990948452469760000-c4fy/?utm_source=share&utm_medium=member_android
+5. https://www.linkedin.com/posts/grusiya_leetcode-datastructures-programming-activity-6990948452469760000-c4fy/?utm_source=share&utm_medium=member_android --> 75 question
 6. https://github.com/KushalVijay/AmazonCrackedResource/blob/main/CrackAmazonResource.md --> AMAZON sheet 50 questio
 
 5. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/?utm_source=linkedin_share&utm_medium=android_app
