@@ -29,26 +29,23 @@ int partition(vector<int> &arr, int pivot, int lo, int hi)
     return prev;
 }
 
-void quick_sort(vector<int> &arr, int lo, int hi)
+int quick_select(vector<int> &arr, int lo, int hi, int k)
 {
-    // write your code here
-    if (lo > hi)
-    {
-        return;
-    }
 
     int pivot = arr[hi];
     int pIdx = partition(arr, pivot, lo, hi);
 
-    quick_sort(arr, lo, pIdx - 1);
-    quick_sort(arr, pIdx + 1, hi);
-}
-
-void display(vector<int> &arr)
-{
-    for (int ele : arr)
+    if (pIdx > k)
     {
-        cout << ele << " ";
+        quick_select(arr, lo, pIdx - 1, k);
+    }
+    else if (pIdx < k)
+    {
+        quick_select(arr, pIdx + 1, hi, k);
+    }
+    else
+    {
+        return arr[pIdx];
     }
 }
 
@@ -57,23 +54,20 @@ int main()
     int n;
     cin >> n;
     vector<int> arr(n, 0);
-    for (int i = 0; i < arr.size(); i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
-    quick_sort(arr, 0, n - 1);
-    display(arr);
+    int k;
+    cin >> k;
+
+    int ans = quick_select(arr, 0, n - 1, k - 1);
+    cout << ans << endl;
     return 0;
 }
 
 /*
-Time comp:- o(n2) --> worst case if we pass sorted array as input
-Avg case:- o(nlogn)
-Space comp:- o(n)
-*/
-
-/*
-Question :-https://nados.io/question/quick-sort
-Article:-https://nados.io/article/quick-sort
-Video:- https://www.youtube.com/watch?v=kdO5Q0nmPjU
+Question :-https://nados.io/question/quick-select
+Article:-https://nados.io/article/quick-select
+Video:- https://www.youtube.com/watch?v=fnbImb8lo88
 */
