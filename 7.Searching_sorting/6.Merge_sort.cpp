@@ -95,3 +95,14 @@ int main()
 
     return 0;
 }
+
+/*
+Time comp:- o(nlogn)
+Space comp:- o(1)
+*/
+
+/*
+Question :-https://nados.io/question/merge-sort
+Article:- https://nados.io/article/merge-sort
+Video:- https://www.youtube.com/watch?v=aiUHB-3EOg8
+*/
