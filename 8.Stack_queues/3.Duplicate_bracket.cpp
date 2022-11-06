@@ -42,3 +42,6 @@ Question :-https://nados.io/question/duplicate-brackets
 Article:- https://nados.io/article/duplicate-brackets
 Video:- https://www.youtube.com/watch?v=aMPXhEdpXFA
 */
+
+// BONUS
+// These kind of algorithm is used in compiler softwares to match syntax and expression
