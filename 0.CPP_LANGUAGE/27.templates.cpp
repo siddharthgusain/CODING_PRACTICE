@@ -18,5 +18,5 @@ int main()
 
 /*
 -> templates are just decalration for generics to reduce code redundancy
--> Compiler genrates specific class type internnally based on template type provided by us in source code
+-> Compiler generates specific class type internally based on template type provided by us in source code
 */
