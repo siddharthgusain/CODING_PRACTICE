@@ -45,7 +45,7 @@ int main()
 
 // First approach could be with two loops --> O(n^2) , space :- O(1)
 // Second approach could be sorting the array and traversing --> O(nlogn),O(1)
-// with stack :- time :- O(n) space O(n)
+// with stack :- time :- O(n)[amortised analysis] space O(n)
 
 /*
 Question :-https://nados.io/question/next-greater-element-to-the-right
