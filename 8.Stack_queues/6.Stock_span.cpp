@@ -43,6 +43,7 @@ int main()
 }
 
 // can be solved to next greater element approach with stack
+// This kind of algorithm can be used in trading platforms
 
 /*
 Question :-https://nados.io/question/stock-span
