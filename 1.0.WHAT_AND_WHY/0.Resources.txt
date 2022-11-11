@@ -1,17 +1,12 @@
 1. https://nados.io/content/data-structures-and-algorithms
 2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
-5. https://www.linkedin.com/posts/grusiya_leetcode-datastructures-programming-activity-6990948452469760000-c4fy/?utm_source=share&utm_medium=member_android --> 75 question
-6. https://github.com/KushalVijay/AmazonCrackedResource/blob/main/CrackAmazonResource.md --> AMAZON sheet 50 questio
+5. https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions --> 75 question
+6. https://github.com/KushalVijay/AmazonCrackedResource/blob/main/CrackAmazonResource.md --> AMAZON sheet 50 question
 
-5. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/?utm_source=linkedin_share&utm_medium=android_app
-6. https://www.linkedin.com/posts/amit-kumar-3059ba185_systemdesign-leetcode-lld-activity-6977554025093181440-5uXb/?utm_source=share&utm_medium=member_android 
-7. https://www.linkedin.com/posts/ugcPost-6980740898103918593-_R94?utm_source=share&utm_medium=member_android
-8. https://www.linkedin.com/posts/shubham-verma-3a5240251_connections-companies-faang-activity-6983330216404226048-3Vyd/?utm_source=share&utm_medium=member_android
-9. https://www.linkedin.com/posts/pratham-kohli_topleetcodeposts-that-you-cannot-miss-activity-6985883736722583553-ucr6?utm_source=share&utm_medium=member_desktop
-10.https://www.linkedin.com/posts/rajatgajbhiye_coding-leetcode-extension-activity-6986519719675637761-XBBe?utm_source=share&utm_medium=member_android
-11. https://www.linkedin.com/posts/amanbarnwal_how-to-answer-the-64-toughest-interview-questions-ugcPost-6986909242528083968-lsA1?utm_source=share&utm_medium=member_android
-12. https://www.linkedin.com/posts/akshat-batra-807ab5125_system-design-notes-activity-6987402577151713280-oLGn/?utm_source=share&utm_medium=member_android
+5. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/?utm_source=linkedin_share&utm_medium=android_app --> Crack sheet for different companies
+6. https://www.linkedin.com/posts/amit-kumar-3059ba185_systemdesign-leetcode-lld-activity-6977554025093181440-5uXb/?utm_source=share&utm_medium=member_android --> Important LEETCODE POSTS
+7. https://www.linkedin.com/posts/ugcPost-6980740898103918593-_R94?utm_source=share&utm_medium=member_android --> Startup list
 
 Practice Platforms:- 
 1. https://leetcode.com/problemset/all/
@@ -26,5 +21,3 @@ Practice Platforms:-
 8. https://www.techgig.com/
 9. https://unstop.com/
 
-// compensation
-https://www.linkedin.com/posts/pratham-kohli_fresher-compensation-for-300-companies-ugcPost-6994169969164869632-RHbi?utm_source=share&utm_medium=member_android
