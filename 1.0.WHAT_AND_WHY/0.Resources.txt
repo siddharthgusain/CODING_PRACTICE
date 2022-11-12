@@ -1,23 +1,23 @@
 1. https://nados.io/content/data-structures-and-algorithms
 2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
-5. https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions --> 75 question
-6. https://github.com/KushalVijay/AmazonCrackedResource/blob/main/CrackAmazonResource.md --> AMAZON sheet 50 question
 
-5. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/?utm_source=linkedin_share&utm_medium=android_app --> Crack sheet for different companies
-6. https://www.linkedin.com/posts/amit-kumar-3059ba185_systemdesign-leetcode-lld-activity-6977554025093181440-5uXb/?utm_source=share&utm_medium=member_android --> Important LEETCODE POSTS
-7. https://www.linkedin.com/posts/ugcPost-6980740898103918593-_R94?utm_source=share&utm_medium=member_android --> Startup list
+<---------------LEETCODE RESOURCES---------------------->
+1. https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions --> 75 question
+2. https://github.com/KushalVijay/AmazonCrackedResource/blob/main/CrackAmazonResource.md --> AMAZON sheet 50 question
+3. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/ --> Crack sheet for different companies
+4. https://www.linkedin.com/posts/amit-kumar-3059ba185_systemdesign-leetcode-lld-activity-6977554025093181440-5uXb/ --> Important LEETCODE POSTS
 
 Practice Platforms:- 
 1. https://leetcode.com/problemset/all/
 2. https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions
-3. https://www.interviewbit.com/
 
 <------------------------------------>
-4. https://codeforces.com/
-5. https://www.codechef.com/
-6. https://www.hackerearth.com/
-7. https://www.hackerrank.com/
-8. https://www.techgig.com/
-9. https://unstop.com/
+1. https://www.interviewbit.com/
+2. https://codeforces.com/
+3. https://www.codechef.com/
+4. https://www.hackerearth.com/
+5. https://www.hackerrank.com/
+6. https://www.techgig.com/
+7. https://unstop.com/
 
