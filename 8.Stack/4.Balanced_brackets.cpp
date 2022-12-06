@@ -26,7 +26,7 @@ int main()
     stack<char> st;
 
     // logic to check balanced bracket
-    // Tip:- dont push any charater other than brackets
+    // Tip:- dont push any character other than brackets
     for (int i = 0; i < expression.length(); i++)
     {
         char ch = expression.at(i);
