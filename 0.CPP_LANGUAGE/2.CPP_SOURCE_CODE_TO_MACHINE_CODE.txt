@@ -5,4 +5,4 @@ understood by compiler.
 4. Assembly file -> Assembler -> Object file/Machine code
 5. Different Object file -> Linker -> Fully linked /partially linked Object/executable file.
 
-NOTE:- The program we will be writing will be synchronous single threaded programs(they could be multifile)
+NOTE:- The program we will be writing will be synchronous single threaded programs(they could be multi file)

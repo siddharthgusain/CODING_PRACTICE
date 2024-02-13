@@ -21,8 +21,9 @@ WHY CPP?
 3. OS written in CPP
 4. MOST system software written in CPP
 5. Browser that run Web application are written in CPP.
+6. Java Virtual Machine is written in C/C++
 
-Why C++ compiler is different for different OS even if both OS are Runnning on same CPU achitecture (say x86-64)
+Why C++ compiler is different for different OS even if both OS are Running on same CPU architecture (say x86-64)
 1. Executable file format for different OS is different (Linux--> ELF format , window--> PE / COFF format)
 2. Each file format is different in terms of headers and other sections added for operating system 
 3. System call is different in different OS.
