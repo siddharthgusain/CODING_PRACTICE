@@ -3,4 +3,4 @@ used across multiple files/Translation Unit
 
 -> <iostream> this type of declaration is for absolute path.
 -> "iostream" this type of declaration is for relative path.
--> iostream is standard c++ standard header files , stdlib.h with ".h" extension is c type library file.
+-> iostream is standard "C++" standard header files , stdlib.h with ".h" extension is "C" type library file.

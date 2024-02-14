@@ -20,7 +20,7 @@ int main()
 }
 
 /*
--> In C , classes and stucture are way differrent , we can't define method
+-> In C , classes and stucture are way different , we can't define method
 inside struture
 -> In CPP , only difference is class members are private by default while struct are public
 */
