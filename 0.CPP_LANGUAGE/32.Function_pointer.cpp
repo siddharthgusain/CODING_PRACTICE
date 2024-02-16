@@ -33,6 +33,6 @@ int main()
 address of function inside code segment of a process , so functions have address
 , thats why function pointer is just a variable pointing to function address
 
--> function pointer are more usefull for asynchronous programming , as they are a form of
-callbacks that we use frequently in GUI programming.
+-> function pointer are more useful for asynchronous programming , as they are a form of
+"CALLBACKS" that we use frequently in "GUI programming".
 */

@@ -7,14 +7,14 @@ int main()
     std::cout << &a << std::endl; // base address
     std::cout << *a << std::endl;
     std::cout << &a[0] << std::endl; // first element address /base address
-    for (int value : a)              // foreach loop -> just a syntactical suger
+    for (int value : a)              // foreach loop -> just a syntactical sugar
     {
         std::cout << value << " ";
     }
     std::cout << std::endl;
     int *ptr = a;
     ptr[0] = 1;         // *(ptr + 0)
-    for (int value : a) // foreach loop -> just a syntactical suger
+    for (int value : a) // foreach loop -> just a syntactical sugar
     {
         std::cout << value << " ";
     }

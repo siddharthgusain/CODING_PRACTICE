@@ -18,5 +18,5 @@ int main()
 /*
 -> String is character array having one extra character '\0' character
 which denotes end of a string.
--> "Null" character is usefull for operating system to know end of string
+-> "Null" character is useful for "Operating System" to know end of string
 */

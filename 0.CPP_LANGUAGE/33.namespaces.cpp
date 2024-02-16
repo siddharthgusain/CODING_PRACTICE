@@ -24,6 +24,6 @@ int main()
 }
 
 /*
-namespace is a identifier which binds multiple idenfiers together
+namespace is a identifier which binds multiple identifiers together
 and scopes them to avoid  name collision
 */

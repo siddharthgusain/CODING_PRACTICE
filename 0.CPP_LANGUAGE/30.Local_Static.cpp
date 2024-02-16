@@ -9,7 +9,7 @@ void function1()
 
 void function2()
 {
-    static int a = 0; // this static variable is present in deffrent memory segment and it remains in memory till process ends
+    static int a = 0; // this static variable is present in different Memory segment of process executable and it remains in memory till process ends
     a++;
     std::cout << "INSIDE STATIC:" << a << std::endl;
 }
