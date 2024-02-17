@@ -1,12 +1,11 @@
-1. https://nados.io/content/data-structures-and-algorithms
+1. https://www.pepcoding.com/resources/
 2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
 
 <---------------LEETCODE RESOURCES---------------------->
 1. https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions --> 75 question
-2. https://github.com/KushalVijay/AmazonCrackedResource/blob/main/CrackAmazonResource.md --> AMAZON sheet 50 question
-3. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/ --> Crack sheet for different companies
-4. https://www.linkedin.com/posts/amit-kumar-3059ba185_systemdesign-leetcode-lld-activity-6977554025093181440-5uXb/ --> Important LEETCODE POSTS
+2. https://www.linkedin.com/posts/shssn_%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F%3F%3F-activity-6966331793754992641-dwyb/ --> Crack sheet for different companies
+3. https://www.linkedin.com/posts/amit-kumar-3059ba185_systemdesign-leetcode-lld-activity-6977554025093181440-5uXb/ --> Important LEETCODE POSTS
 
 Practice Platforms:- 
 1. https://leetcode.com/problemset/all/
