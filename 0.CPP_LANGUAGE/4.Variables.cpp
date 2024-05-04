@@ -34,8 +34,8 @@ error thats how it is written. So we get error/bugs in compile time , rather tha
 
 /*
 CONCLUSION
--> When we say statically typed Language -> Developer has to write Data type for every variable (C++, Java)
--> When we say dynamically type Language -> Developer doesn't need to write Data Type for every variable(JS,Python)
+-> When we say statically typed Language -> Developer must have to write Data type for every variable declaration(C++, Java)
+-> When we say dynamically type Language -> Developer doesn't need to write Data Type for every variable declaration(JS,Python)
 
 -> Assigning One type variable to another is possible in both types though as variable is just Space(bytes) in Memory
 */
