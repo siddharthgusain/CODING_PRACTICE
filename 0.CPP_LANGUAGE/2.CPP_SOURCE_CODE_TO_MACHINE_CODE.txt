@@ -10,7 +10,7 @@ understood by compiler.
 -> We can't take executable compiled in windows to run in Linux or vice versa
 
 *** Java is different 
--> They have one more software layer in btw Hardware OS and Object file that is JVM which is software which converts 
+-> They have one more software layer in btw  (Hardware,OS and Object file) that is JVM which is software which converts 
 intermediate Java object file to final Instruction set of particular architecture.
 
 *** Language JS and Python are interpreted ****

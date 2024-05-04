@@ -9,3 +9,15 @@ actual memory.
 
 -> In case of inbuilt data type , we call the memory variable , while in case of user defined data type 
 we call it an "object".
+
+Derived Data Types:
+1. Array
+2. Pointer
+3. Reference
+4. Enumeration(ENUM) 
+
+User defined data types:
+1. Structure
+2. classes
+3. Union
+4. typedef

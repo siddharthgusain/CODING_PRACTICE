@@ -3,7 +3,7 @@
 static int a = 10;
 /*
 this variable is visible or can be accessed only inside
-this file/transation unit
+this file/translation unit
 */
 
 static void print()
@@ -13,12 +13,12 @@ static void print()
 
 /*
 this function is visible or can be accessed only inside
-this file/transation unit
+this file/translation unit
 */
 
 /*
-global static variables are only accessible inside this file only
-If we create another file having varaible with same name  , linker will
+Global static variables are only accessible inside this file only
+If we create another file having variable with same name  , linker will
 not give error as this "a" is only accessible inside this file.
 Same goes for the static functions
 */
@@ -51,12 +51,12 @@ public:
 };
 
 int Player::a;
-// this is important to let compiler know about this static varaible
+// this is important to let compiler know about this static variable
 // "a" is not considered as member of class
 
 int main()
 {
-    Player p1(10); // "a" varaible is shared but not "b"
+    Player p1(10); // "a" variable is shared but not "b"
     Player p2(20);
     p1.increment();
     p2.increment();
@@ -71,7 +71,7 @@ int main()
 /*
 -> Behind the scenes non-static methods , gets a parameter of pointer to
 current calling , thats why we use "this".
--> this is done by compiler during compilation.
--> Because of object oriented programming implemnetation, compiler has become more complex
+-> This is done by compiler during compilation.
+-> Because of object oriented programming implementation, compiler has become more complex
 softwares
 */

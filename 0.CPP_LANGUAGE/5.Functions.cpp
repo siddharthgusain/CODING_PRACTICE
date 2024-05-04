@@ -3,7 +3,16 @@
 void print(int a) // user defined functions
 {
     std::cout << a; // cout is a library ostream object which in turn has system call inside it
-} // system call are functions/Routines written inside OS kernel
+    std::cout.operator<<(a);
+    /*
+     * std -> Namespace
+     * cout -> Object of Ostream class
+     * << -> overloaded operator
+     * .operator<<() is overloaded operator function call syntax that we learnt in OOPS
+     * So we are basically calling overloaded function << by passing "a"
+     * Inside this function there is OS system call write() to write to Console/monitor
+     */
+}
 
 int main()
 {
