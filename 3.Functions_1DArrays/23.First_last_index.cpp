@@ -64,7 +64,7 @@ int main()
 /*
 -> array must be sorted
 Time Comp :- O(log(n))
-space comp:- )(1);
+space comp:- O(1);
 */
 
 /*
