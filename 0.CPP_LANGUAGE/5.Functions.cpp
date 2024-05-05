@@ -2,7 +2,7 @@
 
 void print(int a) // user defined functions
 {
-    std::cout << a; // cout is a library ostream object which in turn has system call inside it
+    std::cout << a; // cout is a class ostream object which in turn has system call inside it
     std::cout.operator<<(a);
     /*
      * std -> Namespace

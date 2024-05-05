@@ -2,12 +2,13 @@
 
 int main()
 {
-    int a[10] = {0};              // 10 variables of type integer
-    std::cout << a << std::endl;  // base address
-    std::cout << &a << std::endl; // base address
-    std::cout << *a << std::endl;
-    std::cout << &a[0] << std::endl; // first element address /base address
-    for (int value : a)              // foreach loop -> just a syntactical sugar
+    int a[10] = {0};                    // 10 variables of type integer
+    std::cout << a << std::endl;        // base address
+    std::cout << &a << std::endl;       // base address
+    std::cout << &a[0] << std::endl;    // first element address /base address
+    std::cout << *a << std::endl;       // Value at Base address
+    std::cout << *(a + 1) << std::endl; // Value at Base address + 1* (sizeof int) -> a[1]
+    for (int value : a)                 // foreach loop -> just a syntactical sugar
     {
         std::cout << value << " ";
     }

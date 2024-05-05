@@ -27,7 +27,7 @@ void Student::print()
 int main()
 {
     Student s1;
-    // this is where contructor call is added automatically by compiler
+    // this is where constructor call is added automatically by compiler
     // We dont have to call the constructor in our source code , but it will be present in assembly code
     s1.print();
     return 0;
@@ -35,10 +35,10 @@ int main()
 
 /*
 -> Constructors are functions only , nothing special , just that
-we dont need to call them by writing function call , this heavylifting is done by
+we dont need to call them by writing function call , this heavy lifting is done by
 compiler on our behalf
 
--> Even if we dont write contructor , a empty default constructor is added by compiler
+-> Even if we dont write constructor , a empty default constructor is added by compiler
 which does nothing.
--> Same Goes for destuctor
+-> Same Goes for destructor
 */

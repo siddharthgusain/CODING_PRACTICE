@@ -4,8 +4,8 @@ int main()
 {
     int *ptr = new int[5]; // 5*sizeof(int) bytes of memory
     // ptr is variable present in "stack" containing base address of memory allocated in heap
-    std::cout << ptr << std::endl; // base address of memory allocated
-    std::cout << *ptr << std::endl;
+    std::cout << ptr << std::endl;  // base address of memory allocated
+    std::cout << *ptr << std::endl; // Value at base address
     for (int i = 0; i < 5; i++)
     {
         ptr[i] = i;
