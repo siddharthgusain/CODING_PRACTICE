@@ -27,8 +27,8 @@ int get_product_of_single_digit(int base, int num, int digit)
         int d = num % 10;
         num = num / 10;
         int multi_result = digit * d + carry;
-        carry = multi_result / 10;
-        multi_result = multi_result % 10;
+        carry = multi_result / base;
+        multi_result = multi_result % base;
 
         result = result + multi_result * power;
         power = power * 10;
