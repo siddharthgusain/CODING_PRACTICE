@@ -25,7 +25,7 @@ int main()
     while (k >= 0)
     {
         int digit;
-        int arr2_value = j >= 0 ? arr2[j] : 0; // if the i value becomes negative(corner cases)
+        int arr2_value = j >= 0 ? arr2[j] : 0; // if the j value becomes negative(corner cases)
         if (arr1[i] + borrow >= arr2_value)
         {
             digit = (arr1[i] + borrow) - arr2_value;
