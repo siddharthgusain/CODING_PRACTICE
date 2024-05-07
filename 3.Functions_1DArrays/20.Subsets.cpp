@@ -11,7 +11,7 @@ int main()
     {
         std::cin >> vec[i];
     }
-    int limit = pow(2, vec.size()); // calculating the number of subsets
+    int limit = pow(2, vec.size()); // calculating the number of subsets -> 2^n
     for (int i = 0; i < limit; i++)
     {
         // convert i to binary and use 0's and 1's
@@ -24,10 +24,12 @@ int main()
         // as i is the outer loop iterator
         for (int j = vec.size() - 1; j >= 0; --j)
         {
-            // calculating the binary, extracting //
-            //  the remainder one and by one
-            //  and putting required element
-            //  in the String to be printed.
+            /*
+                calculating the binary, extracting
+                the remainder one and by one
+                and putting required element
+                in the String to be printed.
+            */
             int rem = temp % 2;
             temp = temp / 2;
             if (rem == 0) // nothing to be printed
