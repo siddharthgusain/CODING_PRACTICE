@@ -23,7 +23,7 @@ int main()
     while (start <= end)
     {
         int mid = start + (end - start) / 2;
-        if (vec[mid] == key)
+        if (vec[mid] == key) // When number matches exactly -> Both ciel and floor are same
         {
             ciel = vec[mid];
             floor = vec[mid];

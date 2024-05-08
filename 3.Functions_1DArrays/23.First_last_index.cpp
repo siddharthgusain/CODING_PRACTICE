@@ -19,6 +19,7 @@ int main()
     int start = 0, end = n - 1;
     int first_occur, last_occur;
 
+    // Finding First Occurrence
     while (start <= end)
     {
         int mid = start + (end - start) / 2;
