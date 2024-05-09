@@ -1,6 +1,5 @@
-1. https://www.pepcoding.com/resources/
-2. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
-3. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
+1. https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+2. DP:- https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
 
 Practice Platforms:- 
 1. https://leetcode.com/problemset/all/

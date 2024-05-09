@@ -4,7 +4,7 @@ template <typename T, size_t s>
 class Array
 {
 private:
-    T m_data[s];
+    T m_data[s]; // Stored in Stack
 
 public:
     Array()
@@ -28,10 +28,22 @@ public:
 
 int main()
 {
-    Array<int, 5> arr;
+    Array<int, 5> arr; // Static Array in Stack Not in Heap -> Size should be known before compile time
     for (int i = 0; i < arr.size(); i++)
     {
-        std::cout << arr[i] << std::endl;
+        std::cin >> arr[i]; // Overloading Operator function is called here
+        // std::cin.operator>>(arr[i]); -> Another way of calling operator function
+    }
+
+    for (int i = 0; i < arr.size(); i++)
+    {
+        std::cout << arr[i] << "\t";
     }
     return 0;
 }
+
+/*
+-> Simple Default Array implementation using Class syntax
+-> Can't resize this array
+-> Allocated in Stack
+*/
