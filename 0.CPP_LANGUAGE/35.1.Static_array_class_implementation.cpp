@@ -32,6 +32,7 @@ int main()
     for (int i = 0; i < arr.size(); i++)
     {
         std::cin >> arr[i]; // Overloading Operator function is called here
+        // std::cin >> arr.operator[](i) // Another way of calling operator[] function inside Array class
         // std::cin.operator>>(arr[i]); -> Another way of calling operator function
     }
 

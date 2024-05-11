@@ -3,38 +3,100 @@
 template <typename T>
 class Vector
 {
-public:
-private: // Member Functions
+
+public: // public Methods
     Vector()
     {
-        reallocate(2);
+        reallocate(2); // Making Default first time Heap size be 2 block of memory
     }
 
     ~Vector()
     {
-        delete[] m_data;
+        delete[] this->m_data_ptr;
     }
 
-    void reallocate(size_t size)
+    void push_back(T value)
     {
-        /*
-            1. Create New Memory in heap
-            2. Copy old Memory to new memory
-            3. Delete Old Memory
-            4. Save New Memory Address in old pointer
-        */
+        if (this->current_size >= this->capacity)
+        {
+            size_t new_capacity = this->capacity + (this->capacity / 2); // Adding Half if current capacity -> Growing by 1.5 Times
+            reallocate(new_capacity);
+        }
+
+        m_data_ptr[this->current_size] = value;
+        this->current_size++;
     }
 
-private:       // Data
-    T *m_data; // Pointer to Memory in Heap(Address of Space Allocated in Heap Memory)
-    size_t capacity;
-    size_t m_size;
+    size_t size() const
+    {
+        return this->current_size;
+    }
+
+    const T &operator[](size_t index) const
+    {
+        return this->m_data_ptr[index];
+    };
+
+    T &operator[](size_t index)
+    {
+        return this->m_data_ptr[index];
+    };
+
+private: // private Data Members
+    void reallocate(size_t new_capacity)
+    {
+        // 1. Allocate New Memory
+        T *new_data_ptr = new T[new_capacity];
+
+        if (new_capacity < this->current_size)
+        { // If we are downsizing
+            this->current_size = new_capacity;
+        }
+
+        // 2. Copy Old Block into New Blocks
+        for (int i = 0; i < this->current_size; i++)
+        {
+            new_data_ptr[i] = this->m_data_ptr[i];
+        }
+
+        // 3. Delete Old Block To Let OS reuse that Memory
+        delete[] this->m_data_ptr;
+
+        // 4. Add New Block Base Address into m_data_ptr
+        this->m_data_ptr = new_data_ptr;
+
+        // 5. Change Capacity
+        this->capacity = new_capacity;
+    }
+
+private: // private Methods
+    T *m_data_ptr = nullptr;
+    size_t current_size = 0; // Number of elements inside Vector
+    size_t capacity = 0;     // How Much Heap memory is allocated in Vector
 };
+
+// Printing Vector
+template <typename T>
+void display_vector(const Vector<T> &vec)
+{
+    std::cout << "Vector: [";
+    for (int i = 0; i < vec.size(); i++)
+    {
+        std::cout << vec[i];
+        if (i < vec.size() - 1)
+            std::cout << ",";
+    }
+    std::cout << "]";
+}
 
 int main()
 {
     Vector<int> vec;
 
+    vec.push_back(20);
+    vec.push_back(30);
+
+    display_vector(vec);
     return 0;
 }
 
