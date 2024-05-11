@@ -1,43 +1,51 @@
 #include <iostream>
 
 template <typename T>
+class Vector;
+
+// Iterator class for Vector
+template <typename T>
+class VectorIterator
+{
+private:
+    T *ptr;
+
+public:
+    VectorIterator(T *p) : ptr(p) {}
+
+    T &operator*() const { return *ptr; }
+    T *operator->() const { return ptr; }
+    T **operator&() { return &ptr; }; // overloading & operator
+
+    // Pre-increment operator
+    VectorIterator &operator++()
+    {
+        ++ptr;
+        return *this;
+    }
+
+    // Post-increment operator
+    VectorIterator operator++(int)
+    {
+        VectorIterator temp = *this;
+        ++ptr;
+        return temp;
+    }
+
+    // Equality operators
+    bool operator==(const VectorIterator &other) const { return ptr == other.ptr; }
+    bool operator!=(const VectorIterator &other) const { return ptr != other.ptr; }
+
+    // Friend declaration to allow access to private members of Vector
+    friend class Vector<T>;
+};
+
+template <typename T>
 class Vector
 {
-public:
-    // Iterator class for Vector
-    class Iterator
-    {
-    private:
-        T *ptr; // Simple Pointer containing an address
-
-    public:
-        Iterator(T *p) : ptr(p) {}
-
-        T &operator*() const { return *ptr; } // overloading * operator
-        T *operator->() const { return ptr; } // overloading -> operator
-        T **operator&() { return &ptr; };     // overloading & operator
-
-        // Pre-increment operator
-        Iterator &operator++()
-        {
-            ++ptr; // Changing ptr address to Next Vector address
-            return *this;
-        }
-
-        // Post-increment operator
-        Iterator operator++(int)
-        {
-            Iterator temp = *this;
-            ++ptr;
-            return temp;
-        }
-
-        // Equality operators
-        bool operator==(const Iterator &other) const { return ptr == other.ptr; }
-        bool operator!=(const Iterator &other) const { return ptr != other.ptr; }
-    };
-
 public: // public Methods
+        // Typedef for iterator
+    typedef VectorIterator<T> Iterator;
     Vector()
     {
         reallocate(2); // Making Default first time Heap size be 2 block of memory
@@ -138,8 +146,8 @@ int main()
     display_vector(vec);
 
     std::cout << std::endl;
-    Vector<int>::Iterator itr = vec.begin(); // begin() return object of Iterator class
-    std::cout << &itr;
+    VectorIterator<int> itr = vec.begin(); // begin() return object of Iterator class
+    std::cout << &itr << std::endl;
     std::cout << *itr;
     return 0;
 }
