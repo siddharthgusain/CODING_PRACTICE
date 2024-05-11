@@ -3,6 +3,39 @@
 template <typename T>
 class Vector
 {
+public:
+    // Iterator class for Vector
+    class Iterator
+    {
+    private:
+        T *ptr; // Simple Pointer containing an address
+
+    public:
+        Iterator(T *p) : ptr(p) {}
+
+        T &operator*() const { return *ptr; } // overloading * operator
+        T *operator->() const { return ptr; } // overloading -> operator
+        T **operator&() { return &ptr; };     // overloading & operator
+
+        // Pre-increment operator
+        Iterator &operator++()
+        {
+            ++ptr; // Changing ptr address to Next Vector address
+            return *this;
+        }
+
+        // Post-increment operator
+        Iterator operator++(int)
+        {
+            Iterator temp = *this;
+            ++ptr;
+            return temp;
+        }
+
+        // Equality operators
+        bool operator==(const Iterator &other) const { return ptr == other.ptr; }
+        bool operator!=(const Iterator &other) const { return ptr != other.ptr; }
+    };
 
 public: // public Methods
     Vector()
@@ -41,6 +74,12 @@ public: // public Methods
     {
         return this->m_data_ptr[index];
     };
+
+    // Begin iterator
+    Iterator begin() const { return Iterator(this->m_data_ptr); } // Passing First address of Continuous Memory to Iterator Constructor
+
+    // End iterator
+    Iterator end() const { return Iterator(this->m_data_ptr + this->current_size); } // Passing Last address of Continuous Memory to Iterator Constructor
 
 private: // private Data Members
     void reallocate(size_t new_capacity)
@@ -97,6 +136,11 @@ int main()
     vec.push_back(30);
 
     display_vector(vec);
+
+    std::cout << std::endl;
+    Vector<int>::Iterator itr = vec.begin(); // begin() return object of Iterator class
+    std::cout << &itr;
+    std::cout << *itr;
     return 0;
 }
 
@@ -104,4 +148,8 @@ int main()
 1. Data is Stored in Heap
 2. Could be Slow as On Reallocation a lot of things are done
 3. Dynamic as new Heap Allocated Memory is allocated using OS system call during runtime
+
+NOTE: EACH TYPE OF TEMPLATE CLASS CONTAINER WILL HAVE ITS OWN ITERATOR IMPLEMENTATION
+-> HOW ALL THESE OVERLOADED OPERATORS BEHAVE IS DIFFERENT FOR EACH DATA STRUCTURES, IN CASE OF CONTINUOUS DATA STRUCTURES
+ptr++ MAKES SENSE , IN CASE OF NON-CONTINUOUS DATA STRUCTURES , NEXT ELEMENT IS ACCESSED SIMILAR TO LINKED LIST
 */
