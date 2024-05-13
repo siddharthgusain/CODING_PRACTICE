@@ -1,12 +1,12 @@
 #include <iostream>
+#include <vector>
 
 int main()
 {
     int r1, c1;
     std::cin >> r1 >> c1;
-    int a[r1][c1] = {0};
+    std::vector<std::vector<int>> a(r1, std::vector<int>(c1));
 
-    // first matrix
     for (int i = 0; i < r1; i++)
         for (int j = 0; j < c1; j++)
             std::cin >> a[i][j];
@@ -18,16 +18,16 @@ int main()
         std::cout << std::endl;
     }
 
-    for (int j = 0; j < c1; j++)
+    for (int j = 0; j < a[0].size(); j++)
     {
         if (j % 2 == 0)
         {
-            for (int i = 0; i < r1; i++)
+            for (int i = 0; i < a.size(); i++)
                 std::cout << a[i][j] << "->";
         }
         else
         {
-            for (int i = r1 - 1; i >= 0; i++)
+            for (int i = a.size() - 1; i >= 0; i--)
                 std::cout << a[i][j] << "->";
         }
     }
