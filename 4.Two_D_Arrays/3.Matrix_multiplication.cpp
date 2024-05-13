@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main()
 {
@@ -6,7 +7,10 @@ int main()
     std::cin >> r1 >> c1 >> r2 >> c2;
     r3 = r1;
     c3 = c2;
-    int a[r1][c1] = {0}, b[r2][c2] = {0}, c[r3][c3] = {0};
+
+    std::vector<std::vector<int>> a(r1, std::vector<int>(c1));
+    std::vector<std::vector<int>> b(r2, std::vector<int>(c2));
+    std::vector<std::vector<int>> c(r3, std::vector<int>(c3));
 
     // first matrix
     for (int i = 0; i < r1; i++)
@@ -23,12 +27,12 @@ int main()
     // second matrix
     for (int i = 0; i < r2; i++)
         for (int j = 0; j < c2; j++)
-            std::cin >> a[i][j];
+            std::cin >> b[i][j];
 
     for (int i = 0; i < r2; i++)
     {
         for (int j = 0; j < c2; j++)
-            std::cout << a[i][j] << " ";
+            std::cout << b[i][j] << " ";
         std::cout << std::endl;
     }
 
@@ -53,8 +57,6 @@ int main()
 }
 
 /*
-Array can be sorted or unsorted
-Algo:- linear search
 Time comp:- O(n^2)
 Space Comp :- O(n*m)
 */
