@@ -2,8 +2,8 @@
 a 2-d matrix and visualize it in 2-d form.
 2. Array name is just a pointer to its first element
 3. Random access is possible by basic mathematic calculations
-4. Logical view of 2-d array is like rows and columns or a table, but physically they are coninous blocks of memory 
+4. Logical view of 2-d array is like rows and columns or a table, but physically they are continuous blocks of memory 
 and size depends on data type 
-5. In 2d array "column" specification is mandatory as rows can be caluclated by (total elements/number of columns).
-6. Random access is possible because any element address can be calculated with simple maths as blocks are contigous
+5. In 2d array "column" specification is mandatory as rows can be calculated by (total elements/number of columns).
+6. Random access is possible because any element address can be calculated with simple maths as blocks are continuous
 and their size is fixed.
