@@ -6,7 +6,7 @@ int main()
 {
     /*
         BASIC STATIC ARRAY -> Stack Allocation
-        Size should be given
+        Size should be given at compile time
     */
     int arr[2][3] = {0};
 
@@ -40,6 +40,7 @@ int main()
     /*
         Dynamic Array using Heap Memory
         -> Array of Pointers
+        -> Size Can be Given at runtime
     */
     int rows, cols;
     std::cout << "DYNAMIC 2D ARRAY ALLOCATED ON HEAP" << std::endl;
