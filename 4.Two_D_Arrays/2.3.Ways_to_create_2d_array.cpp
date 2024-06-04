@@ -82,7 +82,7 @@ int main()
 
     std::cout << "--------------------------------" << std::endl;
 
-    std::cout << "DYNAMIC 2D ARRAY ALLOCATED ON HEAP USING STL VECTOR CLASS WHICH GIVES USEFULL METHODS" << std::endl;
+    std::cout << "DYNAMIC 2D ARRAY ALLOCATED ON HEAP USING STL VECTOR CLASS WHICH GIVES USEFUL METHODS" << std::endl;
 
     std::vector<std::vector<int>> vec(rows, std::vector<int>(cols));
 
@@ -108,6 +108,6 @@ int main()
 
 /*
 Two ways :
-1.Stack Allocation Static Array -> Normal array or array STL class
+1. Stack Allocation Static Array -> Normal array or array STL class
 2. Heap Allocated Array -> Using pointer  or Vector STL class
 */
