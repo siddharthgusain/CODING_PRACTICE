@@ -33,5 +33,5 @@ int main()
 /*
 1. Iterator may not be used with normal data types like Arrays , vector (Continuous Data Structures)
 2. They are useful for Data structures like tree , graph , Maps , sets etc(Basically Non-continuous Data Structures)
-3. This Concept will be there in every programming language
+3. This Concept will be there in every programming language like JS , Java etc
 */

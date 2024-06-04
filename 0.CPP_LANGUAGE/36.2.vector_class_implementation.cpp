@@ -13,9 +13,9 @@ private:
 public:
     VectorIterator(T *p) : ptr(p) {}
 
-    T &operator*() const { return *ptr; }
-    T *operator->() const { return ptr; }
-    T **operator&() { return &ptr; }; // overloading & operator
+    T &operator*() const { return *ptr; } // overloading "*" operator
+    T *operator->() const { return ptr; } // overloading "->"" operator
+    T **operator&() { return &ptr; };     // overloading "&"" operator
 
     // Pre-increment operator
     VectorIterator &operator++()
@@ -129,7 +129,7 @@ void display_vector(const Vector<T> &vec)
     std::cout << "Vector: [";
     for (int i = 0; i < vec.size(); i++)
     {
-        std::cout << vec[i];
+        std::cout << vec[i]; // vec.operator[](i) -> Another Way of writing
         if (i < vec.size() - 1)
             std::cout << ",";
     }

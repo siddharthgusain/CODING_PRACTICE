@@ -5,7 +5,7 @@ understood by compiler.
 4. Assembly file -> Assembler -> Object file/Machine code
 5. Different Object file -> Linker -> Fully linked /partially linked Object/executable file.
 
--> So the compiled executable runs directly on machine as it contains instruction set of That machine 
+-> So the compiled executable runs directly on machine as it contains instruction set of That CPU Architecture
 -> So mostly each architecture like x86 , ARM has its own compiler 
 -> We can't take executable compiled in windows to run in Linux or vice versa
 
