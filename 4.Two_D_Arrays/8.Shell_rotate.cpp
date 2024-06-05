@@ -11,28 +11,28 @@ vector<int> fillOnedFromShell(vector<vector<int>> &arr, int s)
     int n = 2 * (maxr - minr) + 2 * (maxc - minc);
     vector<int> oned(n);
     int idx = 0;
-    // lw
+    // Left wall
     for (int i = minr, j = minc; i <= maxr; i++)
     {
         oned[idx] = arr[i][j];
         idx++;
     }
 
-    // bw
+    // bottom wall
     for (int i = maxr, j = minc + 1; j <= maxc; j++)
     {
         oned[idx] = arr[i][j];
         idx++;
     }
 
-    // rw
+    // right wall
     for (int i = maxr - 1, j = maxc; i >= minr; i--)
     {
         oned[idx] = arr[i][j];
         idx++;
     }
 
-    // tw
+    // top wall
     for (int i = minr, j = maxc - 1; j >= minc + 1; j--)
     {
         oned[idx] = arr[i][j];
