@@ -20,14 +20,14 @@ int main()
 
     for (int j = 0; j < a[0].size(); j++)
     {
-        if (j % 2 == 0)
+        if (j % 2 == 0) // If Col is Even -> Decrease Rows
         {
-            for (int i = 0; i < a.size(); i++)
+            for (int i = 0; i < a.size(); i++) // Printing That Col
                 std::cout << a[i][j] << "->";
         }
-        else
+        else // If Col is Odd -> Increase Rows
         {
-            for (int i = a.size() - 1; i >= 0; i--)
+            for (int i = a.size() - 1; i >= 0; i--) // Printing That Col
                 std::cout << a[i][j] << "->";
         }
     }
