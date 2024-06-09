@@ -44,7 +44,7 @@ template <typename T>
 class Vector
 {
 public: // public Methods
-        // Typedef for iterator
+    // Typedef for iterator
     typedef VectorIterator<T> Iterator;
     Vector()
     {
@@ -146,9 +146,11 @@ int main()
     display_vector(vec);
 
     std::cout << std::endl;
-    VectorIterator<int> itr = vec.begin(); // begin() return object of Iterator class
-    std::cout << &itr << std::endl;
-    std::cout << *itr;
+    VectorIterator<int> itr = vec.begin();     // begin() return object of Iterator class
+    std::cout << &itr << std::endl;            // Overloaded & operator is called
+    std::cout << itr.operator&() << std::endl; // Overloaded & operator is called
+    std::cout << *itr << std::endl;            // Overloaded * operator is called
+    std::cout << itr.operator*();              // Overloaded * operator is called
     return 0;
 }
 

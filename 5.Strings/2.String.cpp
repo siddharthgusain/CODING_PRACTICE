@@ -7,7 +7,7 @@ int main()
     char str1[] = {'s',
                    'i',
                    'd',
-                   '\0'};
+                   '\0'};     // Stored in Stack
     std::string str3 = "sid"; // note here string is a class written inside library, so str3 is an object
     std::cout << str << std::endl;
     std::cout << str1 << std::endl;
@@ -16,3 +16,8 @@ int main()
 
     return 0;
 }
+
+/*
+ * String class stores Data in Heap => Dynamic Size
+ * Normal C++ String is stored in Stack -> Static Size
+ */
