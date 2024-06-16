@@ -1,23 +1,17 @@
 #include <iostream>
 
-void print_decreasing(int num)
+void print_decreasing(int number)
 {
-    if (num == 0)
+    if (number == 0) // Base Case
         return;
-    std::cout << num << std::endl;
-    print_decreasing(num - 1);
+    std::cout << number << std::endl;
+    print_decreasing(number - 1); // Tail Recursion
 }
 
 int main()
 {
-    int num;
-    std::cin >> num;
-    print_decreasing(num);
+    int number;
+    std::cin >> number;
+    print_decreasing(number);
     return 0;
 }
-
-/*
-Question :- https://nados.io/question/print-decreasing
-Article:- https://nados.io/article/print-decreasing
-Video:- https://www.youtube.com/watch?v=5Q5ed7PWJ8I
-*/

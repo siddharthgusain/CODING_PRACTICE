@@ -1,23 +1,17 @@
 #include <iostream>
 
-void print_increasing(int num)
+void print_increasing(int number)
 {
-    if (num == 0)
+    if (number == 0)
         return;
-    print_increasing(num - 1);
-    std::cout << num << std::endl;
+    print_increasing(number - 1); // Head Recursion
+    std::cout << number << std::endl;
 }
 
 int main()
 {
-    int num;
-    std::cin >> num;
-    print_increasing(num);
+    int number;
+    std::cin >> number;
+    print_increasing(number);
     return 0;
 }
-
-/*
-Question :- https://nados.io/question/print-increasing
-Article:- https://nados.io/article/print-increasing
-Video:- https://www.youtube.com/watch?v=Y5IobAWmfjQ
-*/

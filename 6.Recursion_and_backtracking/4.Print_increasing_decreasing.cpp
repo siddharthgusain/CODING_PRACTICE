@@ -1,24 +1,18 @@
 #include <iostream>
 
-void print_increasing_decreasing(int num)
+void print_increasing_decreasing(int number)
 {
-    if (num == 0)
+    if (number == 0)
         return;
-    std::cout << num << std::endl;
-    print_increasing_decreasing(num - 1);
-    std::cout << num << std::endl;
+    std::cout << number << std::endl;
+    print_increasing_decreasing(number - 1);
+    std::cout << number << std::endl;
 }
 
 int main()
 {
-    int num;
-    std::cin >> num;
-    print_increasing_decreasing(num);
+    int number;
+    std::cin >> number;
+    print_increasing_decreasing(number);
     return 0;
 }
-
-/*
-Question :- https://nados.io/question/print-increasing-decreasing
-Article:- https://nados.io/article/print-increasing-decreasing
-Video:- https://www.youtube.com/watch?v=BWr4zBiRtJY
-*/
