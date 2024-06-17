@@ -143,7 +143,7 @@ int main()
     vec.push_back(20);
     vec.push_back(30);
 
-    display_vector(vec);
+    display_vector<int>(vec);
 
     std::cout << std::endl;
     VectorIterator<int> itr = vec.begin();     // begin() return object of Iterator class

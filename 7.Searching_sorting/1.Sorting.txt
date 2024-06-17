@@ -1,5 +1,5 @@
 Sorting can be of two types:-
-1. Comparision based
+1. Comparison based
 -> Bubble 
 -> Selection
 -> Insertion
