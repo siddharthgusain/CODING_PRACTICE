@@ -18,7 +18,7 @@ std::vector<string> get_staircase_path(int num_of_stairs)
     vector<string> path3 = get_staircase_path(num_of_stairs - allowed_jumps[2]);
 
     vector<string> all_paths;
-    char str1 = (allowed_jumps[0] + '0');
+    char str1 = (allowed_jumps[0] + '0'); // Converting Integer Digit to Character
     char str2 = (allowed_jumps[1] + '0');
     char str3 = (allowed_jumps[2] + '0');
 
