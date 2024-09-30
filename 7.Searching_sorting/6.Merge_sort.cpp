@@ -62,7 +62,7 @@ vector<int> merge_arrays(std::vector<int> &vec1, std::vector<int> &vec2)
 
 vector<int> merge_sort(vector<int> &vec, int low, int high)
 {
-    if (low == high)
+    if (low == high) // Single Element is always sorted
     {
         vector<int> base_case;
         base_case.push_back(vec[low]);
