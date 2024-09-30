@@ -29,6 +29,8 @@ void selection_sort(std::vector<int> &vec)
             if (is_smaller(vec, j, min))
                 min = j;
         }
+        // After Each Iteration U get Minimum from rest of array
+        // Swap the Current Element with Min Index found in iteration
         swap(vec, iteration, min);
     }
 }

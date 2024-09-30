@@ -21,7 +21,7 @@ void insertion_sort(std::vector<int> &vec)
 {
     for (int iteration = 1; iteration < vec.size(); iteration++)
     {
-        for (int j = iteration - 1; j >= 0; j--)
+        for (int j = iteration - 1; j >= 0; j--) // Searching in back of current ith Element
         {
             if (is_greater(vec, j, j + 1))
                 swap(vec, j, j + 1);
