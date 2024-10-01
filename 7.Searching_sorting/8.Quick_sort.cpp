@@ -37,7 +37,7 @@ void quick_sort(vector<int> &arr, int lo, int hi)
     }
 
     int pivot = arr[hi];
-    int pIdx = partition(arr, pivot, lo, hi);
+    int pIdx = partition(arr, pivot, lo, hi); // This Partitioning Changes/Swaps original Vector
 
     quick_sort(arr, lo, pIdx - 1);
     quick_sort(arr, pIdx + 1, hi);
