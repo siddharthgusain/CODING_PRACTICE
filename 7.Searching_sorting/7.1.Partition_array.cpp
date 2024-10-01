@@ -35,7 +35,7 @@ void partition_array(vector<int> &vec, int pivot)
         if (vec[i] > pivot)
         {
             i++; // i checks whether the value is bigger than pivot , so it "i" makes sure that it has seen something greater than pivot
-            // "j" is still pointing to a larger element than pivot because it will be usefull for swapping when i is pointing to smaller element than pivot
+            // "j" is still pointing to a larger element than pivot because it will be useful for swapping when i is pointing to smaller element than pivot
         }
         else if (vec[i] <= pivot) // if i find some element smaller element
         {

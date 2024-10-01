@@ -19,7 +19,7 @@ void count_sort(vector<int> &arr, int max, int min)
 
     for (int i = 1; i < freq.size(); i++)
     {
-        freq[i] = freq[i] + freq[i - 1]; // prefix summ array
+        freq[i] = freq[i] + freq[i - 1]; // prefix sum array
     }
 
     vector<int> ans(arr.size(), 0);

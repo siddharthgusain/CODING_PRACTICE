@@ -31,8 +31,7 @@ int partition(vector<int> &arr, int pivot, int lo, int hi)
 
 void quick_sort(vector<int> &arr, int lo, int hi)
 {
-    // write your code here
-    if (lo > hi)
+    if (lo > hi) // Base case
     {
         return;
     }
