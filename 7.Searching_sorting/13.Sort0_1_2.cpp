@@ -38,9 +38,16 @@ void sort012(vector<int> &arr)
     while (itr <= pt2)
     {
         if (arr[itr] == 0)
+        {
+            itr++;
+            pt1++;
             swap(arr, itr++, pt1++);
+        }
         else if (arr[itr] == 2)
-            swap(arr, itr, pt2--);
+        {
+            pt2--;
+            swap(arr, itr, pt2);
+        }
         else
             itr++;
     }

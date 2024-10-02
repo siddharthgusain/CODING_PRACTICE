@@ -10,7 +10,7 @@ void input(vector<int> &arr)
 }
 void targetSumPair(vector<int> &arr, int target)
 {
-    sort(arr.begin(), arr.end());
+    sort(arr.begin(), arr.end()); // This is important
     int si = 0, ei = arr.size() - 1;
     while (si < ei)
     {
