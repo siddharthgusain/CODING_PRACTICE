@@ -14,16 +14,20 @@ void swap(vector<int> &arr, int i, int j)
 void sort01(vector<int> &arr)
 {
     // write your code here
-    int curr = 0;
-    int prev = -1;
-    while (curr < arr.size())
+    int i = 0;
+    int j = 0;
+    while (i < arr.size())
     {
-        if (arr[curr] == 0)
+        if (arr[i] == 1)
         {
-            prev++;
-            swap(arr, curr, prev);
+            i++;
         }
-        curr++;
+        else
+        {
+            swap(arr, i, j);
+            i++;
+            j++;
+        }
     }
 }
 

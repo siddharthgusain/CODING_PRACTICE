@@ -33,17 +33,17 @@ int quick_select(vector<int> &arr, int lo, int hi, int k)
 {
 
     int pivot = arr[hi];
-    int pIdx = partition(arr, pivot, lo, hi);
+    int pIdx = partition(arr, pivot, lo, hi); // This is changing actual Array
 
-    if (pIdx > k)
+    if (pIdx > k) // Left side of Partition
     {
         quick_select(arr, lo, pIdx - 1, k);
     }
-    else if (pIdx < k)
+    else if (pIdx < k) // Right side of partition
     {
         quick_select(arr, pIdx + 1, hi, k);
     }
-    else
+    else // If pivot index is equal to partitioned index
     {
         return arr[pIdx];
     }
