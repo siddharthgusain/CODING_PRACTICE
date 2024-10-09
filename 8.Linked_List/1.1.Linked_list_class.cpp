@@ -214,6 +214,38 @@ public:
         }
     }
 
+    Node *get_node_at(int index)
+    {
+        Node *temp = head;
+
+        while (index)
+        {
+            temp = temp->next;
+            index--;
+        }
+
+        return temp; // Returning Pointer to Node
+    }
+
+    void reverse_data_iterative()
+    {
+        int left = 0;
+        int right = size - 1;
+
+        while (left < right)
+        {
+            Node *leftNode = get_node_at(left);
+            Node *rightNode = get_node_at(right);
+
+            int temp = leftNode->data;
+            leftNode->data = rightNode->data;
+            rightNode->data = leftNode->data;
+
+            left++;
+            right--;
+        }
+    }
+
 private:
     Node *head;
     Node *tail;
@@ -228,6 +260,8 @@ int main()
     list.add_last(4450);
     list.add_last(1);
     list.add_last(2);
+    list.add_last(1231);
+    list.add_last(5546);
     list.display_list();
     std::cout << std::endl;
     std::cout << list.get_size();
@@ -241,5 +275,7 @@ int main()
     std::cout << std::endl;
     std::cout << list.get_at(5);
     std::cout << std::endl;
+    list.reverse_data_iterative();
+    list.display_list();
     return 0;
 }
