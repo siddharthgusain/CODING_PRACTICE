@@ -214,6 +214,37 @@ public:
         }
     }
 
+    void remove_at(int index)
+    {
+        // Index 0
+        // Index == size - 1
+        // Some Middle Index
+        // Index -ve or greater than size-1 -> Invalid Index
+        if (index < 0 || index > size - 1)
+        {
+            std::cout << "Invalid Index";
+            return;
+        }
+
+        if (index == 0)
+        {
+            this->remove_first();
+            return;
+        }
+
+        if (index == size - 1)
+        {
+            this->remove_last();
+            return;
+        }
+
+        Node *prevIndexNode = this->get_node_at(index - 1);
+        Node *toBeRemovedNode = this->get_node_at(index);
+
+        prevIndexNode->next = toBeRemovedNode->next;
+        delete toBeRemovedNode;
+    }
+
     Node *get_node_at(int index)
     {
         Node *temp = head;
@@ -239,11 +270,29 @@ public:
 
             int temp = leftNode->data;
             leftNode->data = rightNode->data;
-            rightNode->data = leftNode->data;
+            rightNode->data = temp;
 
             left++;
             right--;
         }
+    }
+
+    void reverse_pointer_iterative()
+    {
+        Node *prev = nullptr;
+        Node *cur = this->head;
+
+        while (cur != nullptr)
+        {
+            Node *currentNext = cur->next; // Save Current Pointer Next Node Address
+            cur->next = prev;
+            prev = cur;
+            cur = currentNext;
+        }
+
+        Node *temp = this->head;
+        this->head = this->tail;
+        this->tail = temp;
     }
 
 private:
@@ -276,6 +325,12 @@ int main()
     std::cout << list.get_at(5);
     std::cout << std::endl;
     list.reverse_data_iterative();
+    list.display_list();
+    std::cout << std::endl;
+    list.reverse_pointer_iterative();
+    list.display_list();
+    list.remove_at(2);
+    std::cout << std::endl;
     list.display_list();
     return 0;
 }
