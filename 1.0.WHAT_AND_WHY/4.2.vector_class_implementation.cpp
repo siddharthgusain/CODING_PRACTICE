@@ -89,7 +89,7 @@ public: // public Methods
     // End iterator
     Iterator end() const { return Iterator(this->m_data_ptr + this->current_size); } // Passing Last address of Continuous Memory to Iterator Constructor
 
-private: // private Data Members
+private: // private Methods
     void reallocate(size_t new_capacity)
     {
         // 1. Allocate New Memory
@@ -116,7 +116,7 @@ private: // private Data Members
         this->capacity = new_capacity;
     }
 
-private: // private Methods
+private: // private Data Members
     T *m_data_ptr = nullptr;
     size_t current_size = 0; // Number of elements inside Vector
     size_t capacity = 0;     // How Much Heap memory is allocated in Vector
