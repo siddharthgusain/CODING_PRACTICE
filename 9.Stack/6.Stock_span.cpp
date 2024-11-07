@@ -25,7 +25,7 @@ std::vector<int> calculateSpan(const std::vector<int> &prices)
             span[i] = i - stk.top();
         }
 
-        // Push this day's index onto the stack
+        // Push current day's index onto the stack
         stk.push(i);
     }
 
