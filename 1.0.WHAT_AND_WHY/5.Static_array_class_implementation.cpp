@@ -11,7 +11,7 @@ public:
     {
         for (int i = 0; i < s; i++)
         {
-            m_data[i] = 0;
+            m_data[i] = 0; // or this->m_data[i] = 0; 
         }
     }
 
