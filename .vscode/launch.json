@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleClass",
+            "request": "launch",
+            "mainClass": "SimpleClass",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
+            "name": "MutableStrings",
+            "request": "launch",
+            "mainClass": "MutableStrings",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "FunctionExample",
             "request": "launch",
             "mainClass": "FunctionExample",
