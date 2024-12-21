@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "FunctionOverriding",
             "request": "launch",
             "mainClass": "FunctionOverriding",

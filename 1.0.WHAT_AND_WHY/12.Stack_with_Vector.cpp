@@ -4,7 +4,7 @@
 class Stack
 {
 private:
-    std::vector<int> stack; // Vector to store stack elements
+    std::vector<int> stack; // Vector to store stack elements -> Aggregation of vector class -> Stack class "has-a" vector object 
 
 public:
     // Push operation to add an element to the stack

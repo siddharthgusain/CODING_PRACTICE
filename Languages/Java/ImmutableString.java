@@ -17,3 +17,16 @@ public class ImmutableString {
         System.out.println(s1 == s3); // false (compares references)
     }
 }
+
+/*
+ * The actual string "Hello" is stored in the heap in a special part called the
+ * String Pool.
+ * Java optimizes memory usage for string literals by keeping a single instance
+ * of each literal in the String Pool.
+ */
+
+/*
+ * The variable s is a reference (or pointer) to the string object and is stored
+ * in the stack.
+ * It holds the memory address of the actual string object in the heap.
+ */
