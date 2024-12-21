@@ -6,6 +6,7 @@ public class QueueCollection {
         Queue<Integer> queObj = new ArrayDeque<>();
         queObj.add(1);
         queObj.add(2);
+        queObj.remove();
         System.out.println(queObj.poll());
     }
 }
