@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GenericTree",
+            "request": "launch",
+            "mainClass": "GenericTree",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "QueueCollection",
             "request": "launch",
             "mainClass": "QueueCollection",

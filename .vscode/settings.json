@@ -110,6 +110,7 @@
     },
     "java.project.sourcePaths": [
         "Languages/Java",
-        "10.Queues"
+        "10.Queues",
+        "11.Trees"
     ]
 }
