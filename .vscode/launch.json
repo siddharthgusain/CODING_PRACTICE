@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimitiveDataTypes",
+            "request": "launch",
+            "mainClass": "primitiveDataTypes.PrimitiveDataTypes",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "GenericTree",
             "request": "launch",
             "mainClass": "GenericTree",
