@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Stack;
 
 public class GenericTree {
@@ -59,7 +58,7 @@ public class GenericTree {
     }
 
     public static int maximumOfTree(Node node) {
-        
+
         int max = Integer.MIN_VALUE;
         for (Node child : node.children) {
             int childMax = maximumOfTree(child);
@@ -69,6 +68,10 @@ public class GenericTree {
         max = Math.max(node.data, max);
 
         return max;
+    }
+
+    public static int heightOfGenericTree() {
+        return 1;
     }
 
     public static void main(String[] args) {

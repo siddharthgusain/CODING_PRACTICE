@@ -1,4 +1,4 @@
-import java.lang.System; // Importing this is not mandatory , JVM imports its automatically
+import java.lang.System;
 
 public class HelloWorld {
     public static void main(String[] args) {
