@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Singleton",
+            "request": "launch",
+            "mainClass": "Singleton.Singleton",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "packages.secondPackage.Test",
