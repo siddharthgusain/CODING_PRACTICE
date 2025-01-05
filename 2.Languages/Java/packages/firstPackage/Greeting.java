@@ -9,6 +9,6 @@ public class Greeting {
     }
 }
 
-// 1 Package can have Multiple Files -> Similar to namespaces in CPP
+// 1 Package can have Multiple Files -> Similar to "namespaces" in CPP
 // 1 File can have Multiple Classes
-// CLasses from package 1 can be used in package 2 vice versa
+// Classes from package 1 can be used in package 2 vice versa
