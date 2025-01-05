@@ -1,0 +1,31 @@
+
+class Shape {
+    void area() {
+        System.out.println("Shape");
+    }
+}
+
+class Rectangle extends Shape {
+    @Override
+    void area() {
+        System.out.println("Rectangle Area");
+    }
+
+    void area(int a, int b) {
+        System.out.println("Rectangle Area with Parameter");
+    }
+}
+
+public class Polymorphism {
+    public static void main(String[] args) {
+        Shape s = new Rectangle();
+        s.area();
+        // s.area(1,2); -> type of s is "Shape" so only area() is accessed
+        Rectangle r = new Rectangle();
+        r.area(1, 2); // Type of r is "Rectangle" , so both area() and area(int a, int b) is
+                      // accessible
+    }
+}
+
+// Reference Type i.e left hand side decides which method and variable to access
+// Actual Object type i.e right hand side defines which to call (Overriding) -> Runtime Polymorphism
