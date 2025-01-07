@@ -15,7 +15,7 @@ class Base {
 
 class Derived extends Base {
 
-    public int i;
+    public int j;
 
     Derived(int num) {
         super(num); // calling base class constructor
@@ -24,7 +24,7 @@ class Derived extends Base {
     @Override
     public void log() {
         super.log();
-        System.out.println(this.i); // Current class variable i
+        System.out.println(this.j); // Current class variable i
         System.out.println(super.i); // parent variable i
     }
 }
@@ -38,6 +38,5 @@ public class InheritanceExample {
     }
 }
 
-// In Java we can't specify type of inheritance like in C++ (private , public ,
-// protected)
+// In Java we can't specify type of inheritance like in C++ (private , public ,protected)
 // Java has different rules

@@ -4,9 +4,18 @@ class Student {
     private int roll;
     private String name;
 
-    Student(int roll, String name) {
+    Student(){ // Default Constructor 
+
+    }
+
+    Student(int roll, String name) { // Parameterized Constructor
         this.name = name;
         this.roll = roll;
+    }
+
+    Student(Student s){
+        this.name = s.name;
+        this.roll = s.roll;
     }
 
     // There is no Destructor in Java
