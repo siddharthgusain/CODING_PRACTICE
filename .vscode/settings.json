@@ -110,8 +110,9 @@
     },
     "java.project.sourcePaths": [
         "Languages/Java",
+        "2.Languages/Java/introduction",
         "11.Trees",
         "10.Queues",
-        "2.Languages/Java/introduction"
+        "practice"
     ]
 }
