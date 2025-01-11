@@ -19,6 +19,8 @@ public class FileHandling {
                 int data = f.read();
                 System.out.print((char)data);
             }
+
+            meta.delete();
         }catch(Exception e){
             System.out.println(e);
         }
