@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileHandling",
+            "request": "launch",
+            "mainClass": "FileHandling",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "Singleton",
             "request": "launch",
             "mainClass": "Singleton.Singleton",
