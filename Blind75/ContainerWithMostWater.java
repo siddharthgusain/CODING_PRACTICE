@@ -2,7 +2,7 @@ package blind75;
 
 public class ContainerWithMostWater {
 
-    private  static int maxAreaBruteForce(int[] height) {
+    private static int maxAreaBruteForce(int[] height) {
         int maxArea = 0;
         for (int i = 0; i < height.length; i++) {
             for (int j = i + 1; j < height.length; j++) {
@@ -11,6 +11,7 @@ public class ContainerWithMostWater {
             }
         }
         return maxArea;
+        // O(n2)
     }
 
     private static int maxAreaTwoPointer(int[] height) {
@@ -29,6 +30,7 @@ public class ContainerWithMostWater {
             }
         }
         return maxArea;
+        // O(n)
     }
 
     public static void main(String[] args) {
