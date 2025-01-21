@@ -1,17 +1,42 @@
-Things to keep in mind:-
-1. Logic and pattern recognize(naive to optimized approach)
-2. Clean code and fast code(variable name , functions use and proper indentation)
-3. Fast Debugging
-4. Relate to real life problem
-5. Reward based learning
-6. Revise Periodically
-
-All the problems can be broadly divided into two categories:-
-1. Math pattern or formula problem, that can be solved in less complexity with formula(common for CP problems)
-2. Logic problem , requires generating algorithm with some data structure for the problem.
-
-How to solve:-
-1. Take small input 
-2. Recognize pattern , solve for small input 
-3. Generalize the pattern with algorithm , optimize with DS
-4. Handle edge cases
+1. Arrays(Fixed) , Vector(Growing)
+2. Strings
+    -> String Algorithms: KMP, Rabin-Karp, Z-algorithm.
+3. LinkedList(Singly , Doubly , Circular)
+4. Searching and Sorting Algorithms
+5. Recursion + Backtracking + Dynamic Programming
+6. Greedy Algorithms
+------------------------------------------------
+1. Stack
+    -> With Array/vector 
+    -> With LinkedList
+2. Queue(Deq , Circular Queue,Priority Queue)
+    -> With Array/vector
+    -> With LinkedList
+3. Hashing
+    -> HashMap
+    -> HashTable
+4. Trees
+    -> Generic Trees
+    -> Binary Trees
+    -> Binary Search Trees
+    -> AVL Trees
+    -> Traversal Algorithms
+5. Graphs
+    -> Adjacency matrix
+    -> Adjacency list
+    -> Traversal Algorithms
+    -> Shortest Path Algorithms
+    -> Minimum Spanning Tree Algorithms
+    -> Types(Directed , Undirected, Weighted and Un-weighted)
+6. Heap
+    -> Min and Max Heap
+7. Sets
+    -> Ordered 
+    -> UnOrdered
+------------------------------------------------------
+1. Trie 
+2. Segment Tree/Fenwick Tree
+3. Disjoint Set Union
+------------------------------------------------------
+1. Bit Manipulation
+2. Number Theory
