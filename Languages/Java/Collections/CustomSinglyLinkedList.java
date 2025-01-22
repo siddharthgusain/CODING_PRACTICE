@@ -1,4 +1,4 @@
-package Collections;
+package Languages.Java.Collections;
 
 class Node<T> {
     T data;
