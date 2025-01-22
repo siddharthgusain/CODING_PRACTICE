@@ -109,11 +109,8 @@
         "xutility": "cpp"
     },
     "java.project.sourcePaths": [
-        "practice",
-        "Languages/Java",
         "2.Languages/Java/introduction",
-        "11.Trees",
-        "10.Queues",
-        "2.Languages/Java/files"
+        "2.Languages/Java/files",
+        ""
     ]
 }

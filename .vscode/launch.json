@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PendencySystemClient",
+            "request": "launch",
+            "mainClass": "Phonepe.PendencySystemClient",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
+            "name": "PendencySystemClient",
+            "request": "launch",
+            "mainClass": "PendencySystemClient",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "FileHandling",
             "request": "launch",
             "mainClass": "FileHandling",

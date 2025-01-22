@@ -1,7 +1,9 @@
-1. Arrays(Fixed) , Vector(Growing)
-2. Strings
-    -> String Algorithms: KMP, Rabin-Karp, Z-algorithm.
-3. LinkedList(Singly , Doubly , Circular)
+1. Arrays(Fixed) , ArrayList/Vector(Growing)✅
+2. Strings ✅
+3. LinkedList
+    -> Singly ✅
+    -> Doubly
+    -> Circular
 4. Searching and Sorting Algorithms
 5. Recursion + Backtracking + Dynamic Programming
 6. Greedy Algorithms
@@ -9,12 +11,17 @@
 1. Stack
     -> With Array/vector 
     -> With LinkedList
-2. Queue(Deq , Circular Queue,Priority Queue)
+2. Queue
     -> With Array/vector
     -> With LinkedList
+     -> Doubly Ended Queue(Deque)
+     -> Circular Queue
+     -> Priority Queue
 3. Hashing
     -> HashMap
+    -> LinkedHashMap
     -> HashTable
+    -> TreeMap
 4. Trees
     -> Generic Trees
     -> Binary Trees
@@ -31,8 +38,10 @@
 6. Heap
     -> Min and Max Heap
 7. Sets
-    -> Ordered 
-    -> UnOrdered
+    -> HashSet
+    -> LinkedHashSet
+    -> TreeSet
+8 String Algorithms: KMP, Rabin-Karp, Z-algorithm.
 ------------------------------------------------------
 1. Trie 
 2. Segment Tree/Fenwick Tree
