@@ -1,4 +1,5 @@
-package Rippling;
+package Companies.Rippling;
+
 import java.util.*;
 
 public class SettleBalances {
@@ -22,9 +23,11 @@ public class SettleBalances {
 
         for (Map.Entry<String, Integer> entry : balances.entrySet()) {
             if (entry.getValue() < 0) {
-                debtors.add(new String[]{entry.getKey(), String.valueOf(-entry.getValue())}); // Negative balance converted to positive debt
+                debtors.add(new String[] { entry.getKey(), String.valueOf(-entry.getValue()) }); // Negative balance
+                                                                                                 // converted to
+                                                                                                 // positive debt
             } else if (entry.getValue() > 0) {
-                creditors.add(new String[]{entry.getKey(), String.valueOf(entry.getValue())});
+                creditors.add(new String[] { entry.getKey(), String.valueOf(entry.getValue()) });
             }
         }
 
@@ -47,8 +50,10 @@ public class SettleBalances {
             creditor[1] = String.valueOf(Integer.parseInt(creditor[1]) - amount);
 
             // Move to next debtor or creditor if settled
-            if (Integer.parseInt(debtor[1]) == 0) i++; // either this will be settled
-            if (Integer.parseInt(creditor[1]) == 0) j++; // or this will be settled
+            if (Integer.parseInt(debtor[1]) == 0)
+                i++; // either this will be settled
+            if (Integer.parseInt(creditor[1]) == 0)
+                j++; // or this will be settled
         }
 
         return settlements;
@@ -76,13 +81,16 @@ public class SettleBalances {
 
         for (Map.Entry<String, Integer> entry : balances.entrySet()) {
             if (entry.getValue() < 0) {
-                debtors.add(new String[]{entry.getKey(), String.valueOf(-entry.getValue())}); // Negative balance converted to positive debt
+                debtors.add(new String[] { entry.getKey(), String.valueOf(-entry.getValue()) }); // Negative balance
+                                                                                                 // converted to
+                                                                                                 // positive debt
             } else if (entry.getValue() > 0) {
-                creditors.add(new String[]{entry.getKey(), String.valueOf(entry.getValue())});
+                creditors.add(new String[] { entry.getKey(), String.valueOf(entry.getValue()) });
             }
         }
 
-        // Sort debtors in ascending order of debt, and creditors in descending order of credit
+        // Sort debtors in ascending order of debt, and creditors in descending order of
+        // credit
         debtors.sort((d1, d2) -> Integer.parseInt(d1[1]) - Integer.parseInt(d2[1]));
         creditors.sort((c1, c2) -> Integer.parseInt(c2[1]) - Integer.parseInt(c1[1]));
 
@@ -105,19 +113,22 @@ public class SettleBalances {
             creditor[1] = String.valueOf(Integer.parseInt(creditor[1]) - amount);
 
             // Move to next debtor or creditor if settled
-            if (Integer.parseInt(debtor[1]) == 0) i++; // This debtor is settled
-            if (Integer.parseInt(creditor[1]) == 0) j++; // This creditor is settled
+            if (Integer.parseInt(debtor[1]) == 0)
+                i++; // This debtor is settled
+            if (Integer.parseInt(creditor[1]) == 0)
+                j++; // This creditor is settled
         }
 
         return settlements;
-        // TIME COMP : O(n + m log m) where n is the number of transactions and m is the number of unique people (size of the balances map)
+        // TIME COMP : O(n + m log m) where n is the number of transactions and m is the
+        // number of unique people (size of the balances map)
         // Space comp: O(n + m) for storing transactions and balances
     }
 
     public static void main(String[] args) {
         List<String[]> transactions = new ArrayList<>();
-        transactions.add(new String[]{"A", "B", "10"}); // A pays B $10
-        transactions.add(new String[]{"B", "C", "5"});  // B pays C $5
+        transactions.add(new String[] { "A", "B", "10" }); // A pays B $10
+        transactions.add(new String[] { "B", "C", "5" }); // B pays C $5
 
         List<String> result = settleDebtsWithSorting(transactions);
         for (String settlement : result) {

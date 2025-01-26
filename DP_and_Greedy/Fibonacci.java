@@ -1,6 +1,4 @@
-package practice;
-
-import java.util.Arrays;
+package DP_and_Greedy;
 
 public class Fibonacci {
     private static int fibRecursion(int n) {

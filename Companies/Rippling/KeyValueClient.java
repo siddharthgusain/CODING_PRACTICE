@@ -1,4 +1,4 @@
-package Rippling;
+package Companies.Rippling;
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -32,7 +32,7 @@ class Transaction {
 
 class Redis {
 
-    private HashMap<String, String> cache; 
+    private HashMap<String, String> cache;
     private Stack<Transaction> transactions; // Composition
 
     public Redis() {
@@ -60,7 +60,7 @@ class Redis {
                 cache.remove(key);
             } else { // Handle additions/updates
                 String value = changes.get(key);
-                cache.put(key,value);
+                cache.put(key, value);
             }
         }
 

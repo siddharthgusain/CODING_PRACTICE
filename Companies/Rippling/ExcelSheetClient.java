@@ -1,4 +1,4 @@
-package Rippling;
+package Companies.Rippling;
 
 import java.util.HashMap;
 import java.util.Map;

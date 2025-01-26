@@ -1,4 +1,4 @@
-package blind75;
+package Blind75;
 
 public class ContainerWithMostWater {
 

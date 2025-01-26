@@ -1,5 +1,4 @@
-public
-package blind75;
+package Blind75;
 
 public class MissingNumber {
     private static int missingNumberWithoutBitOperation(int[] nums) {
@@ -29,6 +28,4 @@ public class MissingNumber {
         System.out.println(missingNumberWithoutBitOperation(list));
         System.out.println(missingNumberWithBitOperation(list));
     }
-}{
-
 }

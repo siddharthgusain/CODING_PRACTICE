@@ -3,6 +3,11 @@ package Languages.Java.Collections;
 class Node<T> {
     T data;
     Node<T> next;
+
+    Node() {
+        this.data = null;
+        this.next = null;
+    }
 }
 
 class CustomSinglyLinkedList<T> {

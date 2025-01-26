@@ -1,4 +1,5 @@
-package Rippling;
+package Companies.Rippling;
+
 import java.util.*;
 
 public class UserTimeStamp {
@@ -18,7 +19,7 @@ public class UserTimeStamp {
         List<Log> logs = Arrays.asList(
                 new Log(3, 1620045600000L), // userId=3, timestamp=1620045600000
                 new Log(2, 1620045605000L), // userId=2, timestamp=1620045605000
-                new Log(1, 1620045610000L)  // userId=1, timestamp=1620045610000
+                new Log(1, 1620045610000L) // userId=1, timestamp=1620045610000
         );
 
         // Call the method
@@ -49,7 +50,8 @@ public class UserTimeStamp {
 
         for (Log log : logs) {
             // Query the number of users with userId > current userId
-            int greaterUsers = fenwickTree.sumRange(userIdToIndex.size()) - fenwickTree.sumRange(userIdToIndex.get(log.userId));
+            int greaterUsers = fenwickTree.sumRange(userIdToIndex.size())
+                    - fenwickTree.sumRange(userIdToIndex.get(log.userId));
             count += greaterUsers;
 
             // Update Fenwick Tree with current userId

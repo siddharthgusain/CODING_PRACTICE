@@ -1,3 +1,5 @@
+package BIT_manipulation;
+
 class Basic {
     public static void main(String[] args) {
         int n = 3; // 00000011

@@ -2,8 +2,8 @@
 2. Strings ✅
 3. LinkedList
     -> Singly ✅
-    -> Doubly
-    -> Circular
+    -> Doubly ✅
+    -> Circular ✅
 4. Searching and Sorting Algorithms
 5. Recursion + Backtracking + Dynamic Programming
 6. Greedy Algorithms
