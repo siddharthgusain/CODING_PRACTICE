@@ -4,7 +4,7 @@
     -> Singly ✅
     -> Doubly ✅
     -> Circular ✅
-4. Searching and Sorting Algorithms
+4. Searching and Sorting Algorithms 
 5. Recursion + Backtracking + Dynamic Programming
 6. Greedy Algorithms
 ------------------------------------------------
