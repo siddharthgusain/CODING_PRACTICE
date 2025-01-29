@@ -4,7 +4,7 @@ program will run , as to fetch data from RAM cpu cycles are required , if data i
 in a way that it can be accessed with fewer cpu cycles.
 -> Second thing to optimize is steps to access the data (Algorithms).
 
-->The way we store a DATA in RAM is "Data" "structure".
+->The way we store a DATA in RAM is "Data" "structure".(Either Contiguously or Non Contiguously)
 -> The steps to manipulate data efficiently with less complexity hence less cpu cycles is 
 Algorithms.
 

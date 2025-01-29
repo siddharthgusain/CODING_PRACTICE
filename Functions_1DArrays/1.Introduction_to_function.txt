@@ -1,7 +1,0 @@
--> functions are very basic and fundamental programming construct
--> Functions make the large program to be divided into small routines.
--> each Routine/functions can have some functionality 
--> Functions are similar to math function that takes an input and gives output after processing Inside
-its body.
--> To make a large codebase maintainable and debuggable functions are useful.
--> We have already studied the inner working of stack and function calls.

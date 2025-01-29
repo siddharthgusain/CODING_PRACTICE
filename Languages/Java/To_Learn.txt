@@ -1,4 +1,3 @@
-Core Java
-Multithreading
+1. Multithreading
     -> https://www.youtube.com/watch?v=TpYIcJN9EV8&list=PL6W8uoQQ2c63f469AyV78np0rbxRFppkx&index=30
-Networking and Sockets in Java
+2. Networking and Sockets in Java

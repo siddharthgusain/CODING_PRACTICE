@@ -1,11 +1,14 @@
 1. Arrays(Fixed) , ArrayList/Vector(Growing)✅
+    -> 1D ✅
+    -> 2D ✅
 2. Strings ✅
 3. LinkedList
     -> Singly ✅
     -> Doubly ✅
     -> Circular ✅
 4. Searching and Sorting Algorithms 
-5. Recursion + Backtracking + Dynamic Programming
+5. Recursion + Backtracking
+    -> Optimization with Dynamic Programming
 6. Greedy Algorithms
 ------------------------------------------------
 1. Stack
