@@ -2,7 +2,7 @@ package Blind75;
 
 import java.util.LinkedList;
 
-public class MergeSortedLinkedLists {
+public class MergeTwoSortedLinkedLists {
 
     public static LinkedList<Integer> mergeSortedLists(LinkedList<Integer> list1, LinkedList<Integer> list2) {
         LinkedList<Integer> mergedList = new LinkedList<>();

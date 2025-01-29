@@ -1,4 +1,4 @@
-package wrapperClasses;
+package Languages.Java.wrapperClasses;
 
 public class primitiveWrapperClasses {
     public static void main(String[] args) {

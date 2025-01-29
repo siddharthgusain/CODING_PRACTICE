@@ -1,4 +1,4 @@
-package inheritance;
+package Languages.Java.inheritance;
 
 class Base {
     protected int i;
@@ -38,5 +38,6 @@ public class InheritanceExample {
     }
 }
 
-// In Java we can't specify type of inheritance like in C++ (private , public ,protected)
+// In Java we can't specify type of inheritance like in C++ (private , public
+// ,protected)
 // Java has different rules

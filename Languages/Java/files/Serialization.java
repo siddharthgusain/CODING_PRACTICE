@@ -1,4 +1,4 @@
-package practice;
+package Languages.Java.files;
 
 import java.io.*;
 
@@ -17,11 +17,10 @@ class Person implements Serializable {
     }
 }
 
-
 class DeserializationExample {
     public static void deserialize() {
         try (FileInputStream fileIn = new FileInputStream("person.txt");
-             ObjectInputStream in = new ObjectInputStream(fileIn)) {
+                ObjectInputStream in = new ObjectInputStream(fileIn)) {
             Person person = (Person) in.readObject();
             System.out.println("Deserialized object: " + person);
         } catch (Exception e) {
@@ -30,12 +29,11 @@ class DeserializationExample {
     }
 }
 
-
 public class Serialization {
     public static void main(String[] args) {
         Person person = new Person("Alice", 30);
         try (FileOutputStream fileOut = new FileOutputStream("person.txt");
-             ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
+                ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
             out.writeObject(person);
             System.out.println("Object serialized successfully.");
         } catch (Exception e) {

@@ -1,4 +1,4 @@
-package nonPrimitivesTypes;
+package Languages.Java.nonPrimitivesTypes;
 
 public class nonPrimitiveTypes {
     public static void main() {
@@ -10,4 +10,5 @@ public class nonPrimitiveTypes {
     }
 }
 
-// All Non Primitives are Present in Heap , there pointer/variable is present in Stack
+// All Non Primitives are Present in Heap , there pointer/variable is present in
+// Stack

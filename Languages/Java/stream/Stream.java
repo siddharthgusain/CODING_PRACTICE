@@ -1,4 +1,4 @@
-package practice;
+package Languages.Java.stream;
 
 import java.util.Arrays;
 

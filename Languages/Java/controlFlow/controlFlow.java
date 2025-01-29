@@ -1,3 +1,5 @@
+package Languages.Java.controlFlow;
+
 import java.util.Scanner;
 
 public class controlFlow {

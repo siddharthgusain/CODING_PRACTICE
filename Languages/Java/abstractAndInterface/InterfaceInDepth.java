@@ -1,4 +1,4 @@
-package practice;
+package Languages.Java.abstractAndInterface;
 
 interface Interface1{
     default void log(){

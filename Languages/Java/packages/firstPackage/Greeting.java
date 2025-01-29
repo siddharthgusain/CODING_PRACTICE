@@ -1,6 +1,6 @@
-package packages.firstPackage;
+package Languages.Java.packages.firstPackage;
 
-import static packages.secondPackage.Greeting.publicMethod; // Import is similar to #include
+import static Languages.Java.packages.secondPackage.Greeting.publicMethod; // Import is similar to #include
 
 public class Greeting {
     public static void main(String[] args) {

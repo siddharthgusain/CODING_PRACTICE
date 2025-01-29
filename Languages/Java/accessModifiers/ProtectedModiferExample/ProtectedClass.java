@@ -1,3 +1,5 @@
+package Languages.Java.accessModifiers.ProtectedModiferExample;
+
 public class ProtectedClass {
     protected int a;
 

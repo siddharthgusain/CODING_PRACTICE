@@ -1,4 +1,4 @@
-package packages.secondPackage;
+package Languages.Java.packages.secondPackage;
 
 public class Test {
     public static void main(String[] args) {

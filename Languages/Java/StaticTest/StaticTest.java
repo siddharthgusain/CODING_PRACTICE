@@ -1,3 +1,5 @@
+package Languages.Java.StaticTest;
+
 class StaticExample {
     static int i; // Shared by all Objects of this class
     int j;

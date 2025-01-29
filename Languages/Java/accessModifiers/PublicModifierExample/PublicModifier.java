@@ -1,3 +1,5 @@
+package Languages.Java.accessModifiers.PublicModifierExample;
+
 public class PublicModifier { // Top level classes can be public
     public int publicVariable;
 

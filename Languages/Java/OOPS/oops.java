@@ -1,10 +1,10 @@
-package OOPS;
+package Languages.Java.OOPS;
 
 class Student {
     private int roll;
     private String name;
 
-    Student(){ // Default Constructor 
+    Student() { // Default Constructor
 
     }
 
@@ -13,7 +13,7 @@ class Student {
         this.roll = roll;
     }
 
-    Student(Student s){
+    Student(Student s) {
         this.name = s.name;
         this.roll = s.roll;
     }

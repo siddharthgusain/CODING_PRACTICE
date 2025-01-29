@@ -1,4 +1,4 @@
-package packages.firstPackage;
+package Languages.Java.packages.firstPackage;
 
 public class Greeting1 {
     public static void main(String[] args) {

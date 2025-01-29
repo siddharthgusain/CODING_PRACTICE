@@ -1,3 +1,5 @@
+package Languages.Java.classBasic;
+
 final class Student {
     int rollno;
     String name;

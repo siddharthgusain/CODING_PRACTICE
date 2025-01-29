@@ -1,4 +1,4 @@
-package practice;
+package Languages.Java.serialization;
 
 import java.io.*;
 
@@ -21,7 +21,7 @@ public class Serialization {
     public static void main(String[] args) {
         Student s1 = new Student(1, "John");
 
-        try{
+        try {
             File file = new File("student.txt");
             file.createNewFile();
 
@@ -34,7 +34,7 @@ public class Serialization {
             in.close();
             System.out.println(s2);
             System.out.println(s2.id);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -1,4 +1,4 @@
-package Singleton;
+package Languages.Java.Singleton;
 
 class Singleton {
 

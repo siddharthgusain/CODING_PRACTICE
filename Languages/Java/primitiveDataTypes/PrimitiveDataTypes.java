@@ -1,4 +1,4 @@
-package primitiveDataTypes;
+package Languages.Java.primitiveDataTypes;
 
 public class PrimitiveDataTypes {
     public static void main(String[] args) {

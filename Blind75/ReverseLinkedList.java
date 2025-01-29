@@ -1,6 +1,6 @@
 package Blind75;
 
-class ListNode {
+final class ListNode {
     int val;
     ListNode next;
 
