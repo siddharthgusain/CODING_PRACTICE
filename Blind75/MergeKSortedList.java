@@ -2,7 +2,7 @@ package Blind75;
 
 import java.util.PriorityQueue;
 
-public class ListNode {
+class ListNode {
     int val;
     ListNode next;
 
@@ -19,7 +19,7 @@ public class ListNode {
     }
 }
 
-class MergeKSortedList {
+public class MergeKSortedList {
     private ListNode mergeKListsHelper(ListNode[] lists, int start, int end) {
         if (start == end) {
             return lists[start];
@@ -91,6 +91,8 @@ class MergeKSortedList {
         }
 
         return dummy.next;
+        // Time Comp : NlogK
+        // Space Comp: O(K)
     }
 
 }

@@ -38,7 +38,7 @@ public class ReverseLinkedList {
     }
 
     private static ListNode reverseListRecursive(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return head;
         }
 
@@ -46,7 +46,7 @@ public class ReverseLinkedList {
 
         // Now Backtracking do something?
         ListNode front = head.next;
-        front.next  = head;
+        front.next = head;
         head.next = null;
 
         return newHead;

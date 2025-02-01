@@ -70,7 +70,7 @@ public class MergeTwoSortedLinkedLists {
         list2.add(6);
         list2.add(8);
 
-        LinkedList<Integer> mergedList = mergeSortedLists(list1, list2);
+        LinkedList<Integer> mergedList = mergeSortedListsBrute(list1, list2);
         System.out.println("Merged LinkedList: " + mergedList);
     }
 }
