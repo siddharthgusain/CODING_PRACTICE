@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class MergeTwoSortedLinkedLists {
 
-    public static LinkedList<Integer> mergeSortedLists(LinkedList<Integer> list1, LinkedList<Integer> list2) {
+    public static LinkedList<Integer> mergeSortedListsBrute(LinkedList<Integer> list1, LinkedList<Integer> list2) {
         LinkedList<Integer> mergedList = new LinkedList<>();
         int i = 0, j = 0;
 
@@ -36,7 +36,7 @@ public class MergeTwoSortedLinkedLists {
         // Space: O(N)
     }
 
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public static ListNode mergeTwoListsOptimized(ListNode l1, ListNode l2) {
         ListNode prehead = new ListNode(-1); // Dummy Node
         ListNode cur = prehead;
 
