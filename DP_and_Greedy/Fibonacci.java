@@ -16,13 +16,13 @@ public class Fibonacci {
             return n;
         }
 
-        if (memo[n] != 0) {
+        if (memo[n] != 0) { // Base case for not Re Computing
             return memo[n];
         }
 
         System.out.println("Computing for: " + n);
         int fib = fibRecursionMemoization(n - 1, memo) + fibRecursionMemoization(n - 2, memo);
-        memo[n] = fib;
+        memo[n] = fib; // Storing
         return fib;
     }
 
