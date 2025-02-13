@@ -37,6 +37,7 @@
     -> Adjacency list
     -> Traversal Algorithms
     -> Shortest Path Algorithms
+    -> Topological Sorting
     -> Minimum Spanning Tree Algorithms
     -> Types(Directed , Undirected, Weighted and Un-weighted)
 6. Heap
