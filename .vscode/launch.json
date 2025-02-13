@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "DP_and_Greedy.Fibonacci",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "ClimbingStairs",
             "request": "launch",
             "mainClass": "Blind75.ClimbingStairs",

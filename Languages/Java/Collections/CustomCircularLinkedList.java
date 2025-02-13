@@ -1,16 +1,17 @@
 package Languages.Java.Collections;
 
-class Node<T> {
-    T data;
-    Node<T> next;
-
-    Node(T data) {
-        this.data = data;
-        this.next = null;
-    }
-}
-
 public class CustomCircularLinkedList<T> {
+
+    class Node<T> {
+        T data;
+        Node<T> next;
+
+        Node(T data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
     private Node<T> head;
     private Node<T> tail;
     private int size;

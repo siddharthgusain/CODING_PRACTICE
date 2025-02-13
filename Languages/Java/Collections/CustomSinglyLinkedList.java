@@ -1,16 +1,17 @@
 package Languages.Java.Collections;
 
-class Node<T> {
-    T data;
-    Node<T> next;
-
-    Node() {
-        this.data = null;
-        this.next = null;
-    }
-}
-
 class CustomSinglyLinkedList<T> {
+
+    class Node<T> {
+        T data;
+        Node<T> next;
+
+        Node() {
+            this.data = null;
+            this.next = null;
+        }
+    }
+
     private Node<T> head;
     private Node<T> tail;
     int size;
