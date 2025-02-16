@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClimbingStairWithMinMoves",
+            "request": "launch",
+            "mainClass": "DP_and_Greedy.ClimbingStairWithMinMoves",
+            "projectName": "CODING_PRACTICE_14c9389d"
+        },
+        {
+            "type": "java",
             "name": "ClimbingStairs",
             "request": "launch",
             "mainClass": "DP_and_Greedy.ClimbingStairs",
